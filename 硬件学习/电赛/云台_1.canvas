@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"e7d36b5b30165f67","type":"text","text":"云台","x":-306,"y":-137,"width":86,"height":60,"color":"1"},
+		{"id":"a918418ad913d2b9","type":"text","text":"基本上都是二维","x":292,"y":-492,"width":250,"height":60},
+		{"id":"4827f34df96876ff","type":"text","text":"基本信息","x":-80,"y":-137,"width":250,"height":60,"color":"2"},
+		{"id":"2110407aa0a949c4","type":"text","text":"然后就是有驱动电机，我们可以采用很多方式","x":292,"y":-137,"width":250,"height":67},
+		{"id":"f21a937fdf6ee62d","type":"text","text":"目前手上有的是TB6600\n![[Pasted image 20260715220904.png]]","x":660,"y":-376,"width":794,"height":545},
+		{"id":"dfd6a399c0f2e3ec","type":"text","text":"步进电机驱动器的方式\n|电机线|驱动器|\n|---|--- |\n|黑|A+ |\n|绿|A-  |\n|红|B+ |\n|蓝|B-  |","x":324,"y":307,"width":218,"height":213},
+		{"id":"f946882227336a73","type":"file","file":"96e28d32bab9f02706aee0f27adea2d6.jpg","x":720,"y":260,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"eeb86dde8447a3d4","fromNode":"e7d36b5b30165f67","fromSide":"right","toNode":"4827f34df96876ff","toSide":"left","color":"2"},
+		{"id":"593aabbc79ebe1c0","fromNode":"4827f34df96876ff","fromSide":"right","toNode":"a918418ad913d2b9","toSide":"left"},
+		{"id":"d368249a1eaac64c","fromNode":"4827f34df96876ff","fromSide":"right","toNode":"2110407aa0a949c4","toSide":"left"},
+		{"id":"e4be0c854f346770","fromNode":"2110407aa0a949c4","fromSide":"right","toNode":"f21a937fdf6ee62d","toSide":"left"},
+		{"id":"f3a0dc7f83880439","fromNode":"2110407aa0a949c4","fromSide":"bottom","toNode":"dfd6a399c0f2e3ec","toSide":"top"},
+		{"id":"55d07526ff308b9b","fromNode":"dfd6a399c0f2e3ec","fromSide":"right","toNode":"f946882227336a73","toSide":"left"}
+	]
+}

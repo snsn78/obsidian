@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"27cd03fe87353ed7","type":"text","text":"时钟\n","x":-284,"y":-34,"width":84,"height":50,"color":"1"},
+		{"id":"99f0ccc627a9d39b","type":"text","text":"对于电脑而言，我们总会听说什么，CPU跑多少多少兆的。\n我们要有两个认知：\n1、就是频率越高，这个代码的运行速度越快\n2、这个频率实质上就是一个小的方波","x":-6,"y":-200,"width":486,"height":111},
+		{"id":"8cf59f3f495bbd4f","x":-40,"y":34,"width":160,"height":60,"type":"text","text":"延时函数和时钟"},
+		{"id":"91d4491c70ebd2a4","x":268,"y":26,"width":312,"height":60,"type":"text","text":"延时时间=消耗的时钟数X时钟周期"},
+		{"id":"b39e1816777c1902","x":220,"y":180,"width":497,"height":163,"type":"text","text":"```bat\nvoid delay_ms(uint32_t ms)\n{\n    uint32_t cycles = (CPUCLK_FREQ / 1000) * ms;\n    delay_cycles(cycles);\n}\n```"},
+		{"id":"6b6b24c3e213da28","x":1313,"y":124,"width":250,"height":138,"type":"text","text":"比如在这个单片机里面，时钟的频率被我拉到了，8MHz，也就是说，一秒钟有8000000个时钟周期"},
+		{"id":"f006b5f88b26bb9e","x":900,"y":163,"width":250,"height":60,"type":"text","text":"CPUCLK_FREQ就是时钟周期的频率的意思"},
+		{"id":"fa5ec0c4244f4059","x":1651,"y":92,"width":289,"height":288,"type":"text","text":"时钟周期\n![[PixPin_2026-07-10_18-35-08.png]]"},
+		{"id":"ce3c543e91e51ea5","x":880,"y":343,"width":250,"height":60,"type":"text","text":"delay_cycles(cycles);\n就是底层的空转延时函数"}
+	],
+	"edges":[
+		{"id":"acd900c5eb5aedbc","fromNode":"27cd03fe87353ed7","fromSide":"right","toNode":"99f0ccc627a9d39b","toSide":"left"},
+		{"id":"92937c347145323e","fromNode":"27cd03fe87353ed7","fromSide":"right","toNode":"8cf59f3f495bbd4f","toSide":"left"},
+		{"id":"a99a6b5d37b12255","fromNode":"8cf59f3f495bbd4f","fromSide":"right","toNode":"91d4491c70ebd2a4","toSide":"left"},
+		{"id":"1737868c85955c7f","fromNode":"8cf59f3f495bbd4f","fromSide":"right","toNode":"b39e1816777c1902","toSide":"left"},
+		{"id":"2113a7607f6304a6","fromNode":"b39e1816777c1902","fromSide":"right","toNode":"f006b5f88b26bb9e","toSide":"left"},
+		{"id":"c7e87da97649dba8","fromNode":"f006b5f88b26bb9e","fromSide":"right","toNode":"6b6b24c3e213da28","toSide":"left"},
+		{"id":"960193277d05834a","fromNode":"6b6b24c3e213da28","fromSide":"right","toNode":"fa5ec0c4244f4059","toSide":"left"},
+		{"id":"aa4d08c322d766d9","fromNode":"b39e1816777c1902","fromSide":"right","toNode":"ce3c543e91e51ea5","toSide":"left"}
+	]
+}

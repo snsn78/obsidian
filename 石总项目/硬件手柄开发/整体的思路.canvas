@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"b12102ad5ab2746c","type":"text","text":"走硬件的","x":67,"y":-252,"width":113,"height":60,"color":"1"},
+		{"id":"d26af654f5fb49c0","type":"text","text":"以安卓端为载体的","x":81,"y":21,"width":179,"height":60,"color":"1"},
+		{"id":"35df947c8cc5a51b","type":"text","text":"LVGL的模拟先跑通","x":337,"y":-428,"width":250,"height":60,"color":"2"},
+		{"id":"6db0c55457a811fe","type":"text","text":"学会点亮板子的屏幕","x":333,"y":-245,"width":207,"height":60,"color":"2"},
+		{"id":"2a2c0ad72c13d70e","type":"text","text":"再搞相关的映射关系，部署电脑的环境","x":749,"y":-432,"width":191,"height":60,"color":"3"},
+		{"id":"5ee7bc99f69ee274","type":"text","text":"导入LVGL的代码进行调试","x":752,"y":-245,"width":250,"height":60,"color":"3"},
+		{"id":"48ee796192b9409f","type":"text","text":"先找到各种开源的项目\n最好是支持我可以自行修改的","x":347,"y":1,"width":250,"height":103},
+		{"id":"b6fd6a87d2943f45","type":"text","text":"最终要达到的效果就是说，要在这个开发版上搞出来一个，同时，把已经开源的项目再自己修改一下","x":-320,"y":-126,"width":326,"height":82},
+		{"id":"de008f908e43016d","type":"text","text":"先跑最基本的功能，就是实现模拟手柄，基本的四个模块都要有","x":216,"y":-760,"width":250,"height":98},
+		{"id":"ce589eaa86c17b63","type":"text","text":"在给自定义功能","x":676,"y":-741,"width":169,"height":60},
+		{"id":"823d838dc5b1fcad","type":"text","text":"找项目","x":676,"y":27,"width":105,"height":51},
+		{"id":"0b8a6d46f7af4fb7","type":"text","text":"尝试修改","x":845,"y":23,"width":120,"height":60},
+		{"id":"eae30a5a71fec2fa","type":"text","text":"尝试转化为LVGL的格式，最终可以上板子","x":1040,"y":-29,"width":250,"height":60},
+		{"id":"2c146b73135031ee","type":"text","text":"显得像我自己搞得，稍加修改就行","x":1040,"y":120,"width":250,"height":50},
+		{"id":"2971719b47b98747","type":"text","text":"目前所找的都不是usb通讯 的方式，反而都是局域网链接","x":646,"y":170,"width":271,"height":87,"color":"1"},
+		{"id":"a4fe2e391123dbdf","type":"text","text":"可以改成usb格式的吗\n","x":1042,"y":288,"width":250,"height":60},
+		{"id":"eda0ee9a5fe1bad6","x":1740,"y":-245,"width":155,"height":60,"color":"4","type":"text","text":"7.6号的任务"}
+	],
+	"edges":[
+		{"id":"0d419666954d2e3f","fromNode":"b6fd6a87d2943f45","fromSide":"right","toNode":"b12102ad5ab2746c","toSide":"left"},
+		{"id":"bc93803b052b7835","fromNode":"b6fd6a87d2943f45","fromSide":"right","toNode":"d26af654f5fb49c0","toSide":"left"},
+		{"id":"f1ecf70f7025d238","fromNode":"b12102ad5ab2746c","fromSide":"right","toNode":"35df947c8cc5a51b","toSide":"left"},
+		{"id":"9a62fcfad6acc6c2","fromNode":"b12102ad5ab2746c","fromSide":"right","toNode":"6db0c55457a811fe","toSide":"left"},
+		{"id":"e9f532a30aa96f79","fromNode":"35df947c8cc5a51b","fromSide":"right","toNode":"2a2c0ad72c13d70e","toSide":"left"},
+		{"id":"0c1e0a1f37e78ed3","fromNode":"6db0c55457a811fe","fromSide":"right","toNode":"5ee7bc99f69ee274","toSide":"left"},
+		{"id":"dfd3ad3cfc2835b3","fromNode":"35df947c8cc5a51b","fromSide":"bottom","toNode":"5ee7bc99f69ee274","toSide":"top","color":"2"},
+		{"id":"056d4f31e91d75d7","fromNode":"d26af654f5fb49c0","fromSide":"right","toNode":"48ee796192b9409f","toSide":"left"},
+		{"id":"2cb14f9942870d95","fromNode":"48ee796192b9409f","fromSide":"right","toNode":"823d838dc5b1fcad","toSide":"left"},
+		{"id":"9fc959f98b731a0b","fromNode":"823d838dc5b1fcad","fromSide":"right","toNode":"0b8a6d46f7af4fb7","toSide":"left"},
+		{"id":"27a0a77a00b93def","fromNode":"0b8a6d46f7af4fb7","fromSide":"right","toNode":"2c146b73135031ee","toSide":"left"},
+		{"id":"b5c9abfd88b8c384","fromNode":"0b8a6d46f7af4fb7","fromSide":"right","toNode":"eae30a5a71fec2fa","toSide":"left"},
+		{"id":"410f3be4ed091fcb","fromNode":"eae30a5a71fec2fa","fromSide":"right","toNode":"5ee7bc99f69ee274","toSide":"right","color":"2","label":"此路不通了暂时，没有usb协议的，如果是其他的协议还得搞"},
+		{"id":"7a6db6f8d09843fa","fromNode":"35df947c8cc5a51b","fromSide":"top","toNode":"de008f908e43016d","toSide":"bottom"},
+		{"id":"e06aa759115d8ee8","fromNode":"de008f908e43016d","fromSide":"right","toNode":"ce589eaa86c17b63","toSide":"left"},
+		{"id":"f898867a88112829","fromNode":"ce589eaa86c17b63","fromSide":"bottom","toNode":"35df947c8cc5a51b","toSide":"top"},
+		{"id":"6ecafdd4aef7e1aa","fromNode":"2c146b73135031ee","fromSide":"bottom","toNode":"a4fe2e391123dbdf","toSide":"top"},
+		{"id":"90644a9c0502c4a7","fromNode":"eda0ee9a5fe1bad6","fromSide":"left","toNode":"2a2c0ad72c13d70e","toSide":"right","color":"4"},
+		{"id":"d74feb9857bcb64f","fromNode":"eda0ee9a5fe1bad6","fromSide":"bottom","toNode":"a4fe2e391123dbdf","toSide":"right","color":"4"},
+		{"id":"42c1da60712b0e76","fromNode":"eda0ee9a5fe1bad6","fromSide":"top","toNode":"ce589eaa86c17b63","toSide":"right","color":"4"}
+	]
+}

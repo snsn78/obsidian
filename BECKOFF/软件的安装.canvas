@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"477ee44f58029d8f","type":"file","file":"附件3：软件安装教程.docx","x":340,"y":-320,"width":400,"height":400,"color":"2"},
+		{"id":"d7b749f3fcbe57e1","type":"text","text":"一定要记住，先在倍福的官网上注册自己的账号\n![[Pasted image 20260714190931.png]]","x":271,"y":-760,"width":609,"height":300},
+		{"id":"61b5f4cdb321128d","type":"text","text":"![[Pasted image 20260714192323.png]]","x":317,"y":200,"width":580,"height":378},
+		{"id":"a3b5cccca5955e52","type":"text","text":"![[Pasted image 20260714192429.png]]","x":120,"y":720,"width":840,"height":480},
+		{"id":"20c92b77e1d9bfe1","type":"text","text":"![[Pasted image 20260714192748.png]]","x":2360,"y":800,"width":1060,"height":672},
+		{"id":"59154088bbe9a51b","type":"text","text":"![[Pasted image 20260714192611.png]]","x":2160,"y":200,"width":888,"height":480},
+		{"id":"037b5d1f6b9323c4","type":"text","text":"超链接就是“Ctrl+右键点击”就能够进去","x":1110,"y":-320,"width":154,"height":107},
+		{"id":"06aba8f154124f08","type":"text","text":"虚拟学院是另一个账号，也需要注册，后面下载软件的时候，要用的是你在“倍福官网”上的，而不是说，你在虚拟学院里注册的账号","x":1127,"y":-165,"width":283,"height":145},
+		{"id":"f4b0925536fa47d5","type":"text","text":"软件的安装","x":-1720,"y":1480,"width":126,"height":60,"color":"1"},
+		{"id":"4604b3d5402d7631","type":"file","file":"Pasted image 20260714193700.png","x":67,"y":2480,"width":1119,"height":656},
+		{"id":"9a40693d7caa41cc","type":"file","file":"Pasted image 20260714193848.png","x":240,"y":3360,"width":947,"height":555},
+		{"id":"3dd7523146a508fc","type":"file","file":"Pasted image 20260714194032.png","x":317,"y":4240,"width":1199,"height":703},
+		{"id":"5507db5c08301fc1","type":"text","text":"最后的其他软件的下载步骤都 一样啊，按照这个图对比着搜索一下就行了","x":2180,"y":2511,"width":560,"height":69,"color":"1"},
+		{"id":"d89e87b097ded8e0","type":"file","file":"b184e86782df666a21cc6b2f180bfef3.jpg","x":2180,"y":2580,"width":920,"height":1788},
+		{"id":"0ab7d7594c724200","type":"text","text":"![[Pasted image 20260714193325.png]]","x":114,"y":1480,"width":987,"height":500}
+	],
+	"edges":[
+		{"id":"907ececc9c203c2e","fromNode":"f4b0925536fa47d5","fromSide":"right","toNode":"477ee44f58029d8f","toSide":"left","color":"2","label":"点击这里面的超链接就行"},
+		{"id":"549792b436c5d57a","fromNode":"f4b0925536fa47d5","fromSide":"right","toNode":"d7b749f3fcbe57e1","toSide":"left"},
+		{"id":"a5d5d62b4837060c","fromNode":"477ee44f58029d8f","fromSide":"right","toNode":"037b5d1f6b9323c4","toSide":"left"},
+		{"id":"08c7c05552a469d2","fromNode":"477ee44f58029d8f","fromSide":"right","toNode":"06aba8f154124f08","toSide":"left"},
+		{"id":"96b4df47fd6201cd","fromNode":"477ee44f58029d8f","fromSide":"bottom","toNode":"61b5f4cdb321128d","toSide":"top","color":"1"},
+		{"id":"2ba09767d50daaf8","fromNode":"61b5f4cdb321128d","fromSide":"bottom","toNode":"a3b5cccca5955e52","toSide":"top","color":"1"},
+		{"id":"508cdeda0cf296ab","fromNode":"d7b749f3fcbe57e1","fromSide":"bottom","toNode":"477ee44f58029d8f","toSide":"top","color":"1"},
+		{"id":"613ea306fc250843","fromNode":"a3b5cccca5955e52","fromSide":"right","toNode":"59154088bbe9a51b","toSide":"left","label":"如何添加看这边"},
+		{"id":"b5dd4b0a95784439","fromNode":"59154088bbe9a51b","fromSide":"bottom","toNode":"20c92b77e1d9bfe1","toSide":"top"},
+		{"id":"2462c96734f1346e","fromNode":"a3b5cccca5955e52","fromSide":"bottom","toNode":"0ab7d7594c724200","toSide":"top","color":"1","label":"上面添加完成后就看这个\n\n"},
+		{"id":"b3b640bea3cf4e8b","fromNode":"0ab7d7594c724200","fromSide":"bottom","toNode":"4604b3d5402d7631","toSide":"top","color":"1"},
+		{"id":"aff1d0c21d4cbc80","fromNode":"4604b3d5402d7631","fromSide":"bottom","toNode":"9a40693d7caa41cc","toSide":"top","color":"1"},
+		{"id":"8ef4230523b97c40","fromNode":"9a40693d7caa41cc","fromSide":"bottom","toNode":"3dd7523146a508fc","toSide":"top","color":"1"},
+		{"id":"c6ecf3964a967823","fromNode":"f4b0925536fa47d5","fromSide":"right","toNode":"3dd7523146a508fc","toSide":"left"}
+	]
+}

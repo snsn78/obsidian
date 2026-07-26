@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"837a1f66d74dea8a","type":"text","text":"RAG","x":-156,"y":-38,"width":96,"height":60,"color":"1"},
+		{"id":"79c1cb788e0a6ab7","type":"text","text":"准备：分片--》索引","x":-60,"y":-360,"width":191,"height":60,"color":"2"},
+		{"id":"4733cc41e3250ff4","type":"text","text":"分片","x":269,"y":-439,"width":95,"height":60,"color":"3"},
+		{"id":"3cd71f6bc31e15f9","type":"text","text":"索引","x":325,"y":-224,"width":78,"height":60,"color":"3"},
+		{"id":"f882c027eaec0a73","type":"text","text":"按字数\n按章节\n按段落\n按页码","x":513,"y":-536,"width":107,"height":127},
+		{"id":"b92bdf08ce8342e8","type":"text","text":"通过**Embedding**将文字转化为**向量**，然后将向量文本和片段向量存入**向量数据库**中","x":620,"y":-141,"width":257,"height":103},
+		{"id":"9d14f868eb84e45e","type":"file","file":"数学/线性代数/向量.canvas","x":660,"y":-244,"width":89,"height":50},
+		{"id":"724448af6b461733","type":"text","text":"回答：召回--》重排--》生成","x":-20,"y":200,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[
+		{"id":"ef430ec6a1396439","fromNode":"837a1f66d74dea8a","fromSide":"right","toNode":"79c1cb788e0a6ab7","toSide":"left"},
+		{"id":"06e280302596c641","fromNode":"837a1f66d74dea8a","fromSide":"right","toNode":"724448af6b461733","toSide":"left"},
+		{"id":"0d0c3301fb6ca29e","fromNode":"79c1cb788e0a6ab7","fromSide":"right","toNode":"4733cc41e3250ff4","toSide":"left"},
+		{"id":"66521294953d8ee1","fromNode":"79c1cb788e0a6ab7","fromSide":"right","toNode":"3cd71f6bc31e15f9","toSide":"left"},
+		{"id":"c33fb437e6de9e48","fromNode":"4733cc41e3250ff4","fromSide":"right","toNode":"f882c027eaec0a73","toSide":"left"},
+		{"id":"0c0fafcf1b8aa0fb","fromNode":"3cd71f6bc31e15f9","fromSide":"right","toNode":"b92bdf08ce8342e8","toSide":"left"},
+		{"id":"193986cef280a059","fromNode":"b92bdf08ce8342e8","fromSide":"top","toNode":"9d14f868eb84e45e","toSide":"bottom","color":"1"}
+	]
+}

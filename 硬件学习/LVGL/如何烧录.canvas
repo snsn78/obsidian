@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"e1358b03a551ed47","type":"text","text":"如何烧录","x":-321,"y":-71,"width":81,"height":60,"color":"1"},
+		{"id":"79a45b9a1b16648b","type":"text","text":"确定代码入口——main.c","x":-63,"y":-327,"width":250,"height":60},
+		{"id":"509429d0a7a80e1e","type":"text","text":"**这个就需要你先配置好espidf的环境，这个不太好让ai去配置，建议看这个**\n【【2026年新版ESP-IDF环境搭建】Windows下的ESP-IDF开发环境搭建】 https://www.bilibili.com/video/BV1YiQeB7EyV/?share_source=copy_web&vd_source=429ef37cdcfcd0587ef6df60031cbbfa","x":300,"y":-180,"width":300,"height":140},
+		{"id":"90c5e443ae2d0895","type":"text","text":"我给出一个相对路径./lvgl/WT9932P4-TINY/lvgl_demo_v9/main/main.c","x":300,"y":-320,"width":480,"height":60},
+		{"id":"9f03a29f36aa8bec","type":"text","text":"先编译","x":-40,"y":40,"width":227,"height":50},
+		{"id":"13bfcaef5cee6a1d","type":"text","text":"打开esp-idf","x":-63,"y":-155,"width":250,"height":50},
+		{"id":"bd4e47e93430454f","type":"text","text":"我自己会通过这个脚本打开我的环境/E:/Vscode_codes/lvgl/WT9932P4-TINY/lvgl_demo_v9/idf-run.cmd","x":730,"y":-142,"width":350,"height":102},
+		{"id":"0091f7a818b45fc9","type":"text","text":"我的一般是COM20","x":350,"y":399,"width":250,"height":60},
+		{"id":"8666df07f37eaef2","type":"file","file":"PixPin_2026-07-09_19-09-59.png","x":716,"y":360,"width":397,"height":39},
+		{"id":"2af03a5d6b8366ec","type":"file","file":"PixPin_2026-07-09_19-10-24.png","x":860,"y":498,"width":113,"height":400},
+		{"id":"644bc3a9109b51f7","type":"text","text":"就是看一下那个有变化\n![[PixPin_2026-07-09_19-11-09.png]]","x":1067,"y":663,"width":393,"height":276},
+		{"id":"be1ae5c46badce99","type":"text","text":"找到开发版的串口","x":-63,"y":399,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"31032bac94a3e910","fromNode":"13bfcaef5cee6a1d","fromSide":"right","toNode":"509429d0a7a80e1e","toSide":"left"},
+		{"id":"0d3e31ac1bd3d3b1","fromNode":"be1ae5c46badce99","fromSide":"right","toNode":"0091f7a818b45fc9","toSide":"left"},
+		{"id":"9c719b0cb86189bf","fromNode":"0091f7a818b45fc9","fromSide":"right","toNode":"8666df07f37eaef2","toSide":"left"},
+		{"id":"ef11260e145b5259","fromNode":"8666df07f37eaef2","fromSide":"bottom","toNode":"2af03a5d6b8366ec","toSide":"top"},
+		{"id":"1cfba36342977623","fromNode":"2af03a5d6b8366ec","fromSide":"right","toNode":"644bc3a9109b51f7","toSide":"left"},
+		{"id":"5dbb85e91115f36f","fromNode":"79a45b9a1b16648b","fromSide":"right","toNode":"90c5e443ae2d0895","toSide":"left"},
+		{"id":"6acca9a0aab56dad","fromNode":"509429d0a7a80e1e","fromSide":"right","toNode":"bd4e47e93430454f","toSide":"left"}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"1862a3fa44ccbdff","type":"text","text":"写字机\n","x":-378,"y":-160,"width":96,"height":60,"color":"1"},
+		{"id":"15623d40b040bc3d","type":"file","file":"Pasted image 20260721090843.png","x":-62,"y":-425,"width":400,"height":211},
+		{"id":"37cb4d5c5cf00093","type":"file","file":"Pasted image 20260721090906.png","x":-22,"y":-65,"width":400,"height":182},
+		{"id":"f1506a89cc198379","type":"file","file":"Pasted image 20260721092036.png","x":-22,"y":214,"width":400,"height":211},
+		{"id":"789b7d49aec9904b","type":"file","file":"BECKOFF/倍福-写字机.md","x":-760,"y":117,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"9f1c064cfb9245c6","fromNode":"789b7d49aec9904b","fromSide":"top","toNode":"1862a3fa44ccbdff","toSide":"bottom"}
+	]
+}

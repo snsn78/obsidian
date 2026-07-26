@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"5532281062b75aa8","x":-333,"y":-11,"width":93,"height":50,"color":"1","type":"text","text":"VPN"},
+		{"id":"892fdf68c00c202a","x":-182,"y":-94,"width":122,"height":60,"color":"2","type":"text","text":"系统代理"},
+		{"id":"e624f76ae6b7ae42","x":18,"y":-177,"width":502,"height":117,"type":"text","text":"1.开了一个专门接受流量的开口——开启监听端口\n2.系统本来就有代理功能，软件将电脑系统的代理功能打开了 "},
+		{"id":"306b8d110c22ec91","x":-769,"y":80,"width":129,"height":60,"type":"text","text":"技术蛋老师"},
+		{"id":"451c3e18723d6b0c","x":-2600,"y":537,"width":381,"height":104,"type":"text","text":"首先，东边的仓库和西边的公司都有一个VPN服务器（集线器/网关），在西边的公司把信息经历过VPN服务器加密后，然后从公司出去"},
+		{"id":"e018f3de03b5dc3b","x":-2535,"y":720,"width":245,"height":101,"type":"text","text":"然后经过ISP，从互联网上传输过去，同理而言，仓库也是这样的"},
+		{"id":"70886bdb941f0785","x":-2319,"y":-17,"width":200,"height":315,"type":"text","text":"最开始解决的是什么问题？\n**比如一家公司，在东边是线上业务，西边是仓库，客户下单之后，要把这个下单后的信息从西边传向东边，这个传输的过程就可能有信息泄露，这个时候VPN就出现了**"},
+		{"id":"dc281e85a96af369","x":-1780,"y":-11,"width":691,"height":259,"type":"text","text":"站点--站点的\n![[Pasted image 20260706102840.png]]"},
+		{"id":"230917d9b5f1a1ac","x":-1380,"y":495,"width":166,"height":60,"type":"text","text":"客户端--站点"}
+	],
+	"edges":[
+		{"id":"8ca6ffd75b15723d","fromNode":"5532281062b75aa8","fromSide":"right","toNode":"892fdf68c00c202a","toSide":"left"},
+		{"id":"88f43b138021d106","fromNode":"892fdf68c00c202a","fromSide":"right","toNode":"e624f76ae6b7ae42","toSide":"left"},
+		{"id":"595e29a823d0f692","fromNode":"5532281062b75aa8","fromSide":"left","toNode":"306b8d110c22ec91","toSide":"right"},
+		{"id":"28bfd16302754d92","fromNode":"451c3e18723d6b0c","fromSide":"bottom","toNode":"e018f3de03b5dc3b","toSide":"top"},
+		{"id":"56b0c75133935c58","fromNode":"306b8d110c22ec91","fromSide":"left","toNode":"dc281e85a96af369","toSide":"right"},
+		{"id":"71d207d7b90e73c7","fromNode":"dc281e85a96af369","fromSide":"left","toNode":"451c3e18723d6b0c","toSide":"top"},
+		{"id":"b555ee9c4164c5f8","fromNode":"dc281e85a96af369","fromSide":"left","toNode":"70886bdb941f0785","toSide":"right"},
+		{"id":"85bf812f9ec6fbe8","fromNode":"306b8d110c22ec91","fromSide":"left","toNode":"230917d9b5f1a1ac","toSide":"right"}
+	]
+}

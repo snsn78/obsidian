@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"eca7b4bc-05e1-4b","type":"text","x":300,"y":0,"width":500,"height":50,"text":"# 手柄屏幕样机 — 技术栈选型对比","color":"6"},
+		{"id":"1803f264-224b-40","type":"text","x":50,"y":80,"width":240,"height":380,"text":"## ✅ Android Native\n**Kotlin + Jetpack Compose**\n\n- USB HID 原生直通\n- 触觉反馈完整支持\n- 压感 API 直接调用\n- 最小 APK 体积 (<10MB)\n- 性能最佳\n- 布局编辑器流畅\n\n🎯 **赛博朋克 UI 自由度高**","color":"4"},
+		{"id":"a96b1ff5-46bd-4b","type":"text","x":320,"y":80,"width":240,"height":380,"text":"## ⚠️ Flutter\n**Dart + Flutter**\n\n- USB HID 需写平台通道\n- 触觉反馈需原生桥接\n- 压感需 MethodChannel\n- APK 体积较大 (20MB+)\n- 热重载开发快\n- 布局编辑器需自定义\n\n⚠️ 跨平台但硬件受限","color":"2"},
+		{"id":"e9b327e0-2120-48","type":"text","x":590,"y":80,"width":240,"height":380,"text":"## ❌ React Native\n**JS + React**\n\n- USB HID 几乎不可行\n- 触觉反馈极难实现\n- 压感无 API\n- 原生模块开发复杂\n- 性能开销大\n- 手势处理不精确\n\n🚫 不推荐用于硬件项目","color":"1"},
+		{"id":"327ed6e4-d8d2-4e","type":"text","x":860,"y":80,"width":240,"height":380,"text":"## ❌ WebView Wrapped\n**HTML/CSS/JS + Capacitor**\n\n- 完全无法访问 USB HID\n- 触觉反馈 = 0\n- 压感无解\n- 仅适合纯 UI 原型\n- 无法控制硬件\n\n🚫 只能做界面 Demo!","color":"1"},
+		{"id":"bb0b26af-d9e3-4f","type":"text","x":50,"y":500,"width":1050,"height":160,"text":"## 🎯 推荐: Android Native (Kotlin + Compose)\n\n**实现路径**: Android Studio → Kotlin+Compose → USB Host API(HID) → HapticFeedback → PressureSensor\n\n↓ 布局编辑器(拖拽/缩放/碰撞) | ↓ 赛博朋克 UI(霓虹/暗黑/终端风) | ↓ PC 手柄/鼠标输出(HID Descriptor)\n\n**APK < 10MB | JSON 本地存储 | 完全离线 | 不需要 PC 端软件**","color":"5"},
+		{"id":"84b02935-ee03-43","type":"text","x":50,"y":700,"width":520,"height":170,"text":"## 选型后果分析 (选原生 vs 选跨平台)\n\n**选原生** → 开发中等, 硬件能力100%\n→ 1人 4-6周完成 MVP\n→ USB HID 无痛, 触觉/压感原生级\n→ 后期无需重构\n\n**选 Flutter** → 开发快, 硬件易卡壳\n→ 需额外 2-3 周写原生桥接\n→ 每次 Android 升级可能断裂","color":"3"},
+		{"id":"22136dda-cb19-47","type":"text","x":600,"y":700,"width":500,"height":170,"text":"## 错误选择的代价\n\n**选 RN/WebView** → 硬件能力 0~20%\n→ 项目完不成核心功能\n→ USB HID 基本不可能\n→ 最终还得用原生重写\n→ **浪费时间 ×2**\n\n## 结论: Android Native 是唯一零风险路径","color":"1"}
+	],
+	"edges":[
+		{"id":"53952ca5-70cd-47","fromNode":"eca7b4bc-05e1-4b","toNode":"327ed6e4-d8d2-4e","fromSide":"bottom","toSide":"top"},
+		{"id":"1341f7ae-1db3-47","fromNode":"eca7b4bc-05e1-4b","toNode":"bb0b26af-d9e3-4f","fromSide":"bottom","toSide":"top"},
+		{"id":"783f5658-7b48-49","fromNode":"bb0b26af-d9e3-4f","toNode":"84b02935-ee03-43","fromSide":"bottom","toSide":"top"},
+		{"id":"a5c6aa6b-c340-4b","fromNode":"bb0b26af-d9e3-4f","toNode":"22136dda-cb19-47","fromSide":"bottom","toSide":"top"}
+	]
+}

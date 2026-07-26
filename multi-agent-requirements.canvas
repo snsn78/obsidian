@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"05227a59-edc9-44","type":"text","text":"## 🔴 必须提供 (缺一不可!)\n\n### 1. API Key / 认证\n- **Claude Code**: ANTHROPIC_AUTH_TOKEN 或 claude auth login\n- **Codex**: OPENAI_API_KEY 或 codex auth login\n- **OpenCode**: OPENROUTER_API_KEY 或 opencode auth login\n\n### 2. CLI 工具安装\n```bash\nnpm i -g @anthropic-ai/claude-code\nnpm i -g @openai/codex\nnpm i -g opencode-ai\n```\n\n### 3. Git 仓库\n项目必须在 Git 仓库中 (Codex 强制)\n\n### 4. 项目需求文档\n功能清单 / 技术规格 / UI 参考","x":30,"y":-150,"width":470,"height":650,"color":"1"},
+		{"id":"0f600826-8b96-4c","type":"text","text":"## 🟢 强烈建议 (事半功倍!)\n\n### 5. CLAUDE.md 项目上下文\n放项目根目录，Agent 自动读取:\n- 项目架构说明\n- 代码规范\n- 关键命令\n- 依赖关系\n\n### 6. 任务拆分方案\n拆成 2-5分钟 的原子任务\n每个有明确输入/输出\n\n### 7. 环境变量配置\nJAVA_HOME, ANDROID_HOME\nADB 路径, 签名密钥\n\n### 8. Git Worktree 分区\n每个 Agent 独立工作目录\n避免文件冲突","x":530,"y":-150,"width":440,"height":650,"color":"4"},
+		{"id":"1f60a8a5-ef92-48","type":"text","text":"## 📊 当前状态\n\n| 工具 | 状态 |\n|------|:---:|\n| Claude Code v2.1.153 | ✅ 已认证可用 |\n| Codex v0.139.0 | ✅ 已修复可用 |\n| delegate_task | ✅ 内置可用 |\n| OpenCode | ❌ 未装(可选) |\n\n**最小方案**: 只装 Claude Code + API Key 就能启动!\n**推荐方案**: Claude Code + Codex + delegate_task = 3路并行\n**全火力**: + OpenCode = 4路并行 + 审查","x":30,"y":920,"width":940,"height":360,"color":"3"},
+		{"id":"c7beb0b7-be4e-4e","type":"text","text":"## 🔄 多 Agent 完整启动流程\n\n```\n你提供需求/Key → Hermes 做任务分解 → 分配 Agent 池 → 并行执行\n                                    ↓\n              Claude Code(架构)  Codex(功能)  OpenCode(审查)  SubAgent(质量门控)\n                                    ↓\n              Hermes 汇总结果 → 质量检查 → 集成测试 → 交付 APK\n```\n\n**一键触发**: 你只需要说「帮我开发手柄项目的布局编辑器+USB HID+配置系统」\n**Hermes 自动**: 拆任务→分Agent→监控→汇总→交付","x":30,"y":580,"width":940,"height":280,"color":"5"},
+		{"id":"1053548e-0da7-4d","type":"text","text":"# 启动多 Agent 开发 — 你需要提供什么","x":200,"y":-240,"width":600,"height":50,"color":"6"}
+	],
+	"edges":[
+		{"id":"5bea3497-a5ff-42","fromNode":"05227a59-edc9-44","fromSide":"bottom","toNode":"c7beb0b7-be4e-4e","toSide":"top","label":"输入"},
+		{"id":"150d9ad5-aac2-42","fromNode":"0f600826-8b96-4c","fromSide":"bottom","toNode":"c7beb0b7-be4e-4e","toSide":"top","label":"增强"},
+		{"id":"89a80087-4f23-45","fromNode":"c7beb0b7-be4e-4e","fromSide":"bottom","toNode":"1f60a8a5-ef92-48","toSide":"top","label":"结果"}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"45d7be1aadb6ca67","type":"text","text":"定义方式：","x":-191,"y":-84,"width":131,"height":60,"color":"2"},
+		{"id":"54fbd3471b5e5dd8","type":"text","text":"struct student\n{\nint height;\nchar ****name**;\nint score;\n};\n","x":100,"y":-240,"width":233,"height":186},
+		{"id":"948d16b320404d9b","type":"text","text":"typedef struct student \n{\nint height;\nchar ****name**;\nint score;\n}stu;\n","x":100,"y":60,"width":260,"height":170},
+		{"id":"a6e6dbbc44df71e7","type":"text","text":"struct student **stu**;","x":423,"y":-179,"width":250,"height":60},
+		{"id":"e2d74956b2e81016","type":"text","text":"stu **stu1**;","x":460,"y":115,"width":250,"height":60},
+		{"id":"d811eb78b983ba4e","type":"text","text":"结构体\n","x":-440,"y":-84,"width":113,"height":60,"color":"1"},
+		{"id":"e697aeb645f6f2ce","type":"text","text":"好比C++的类，能够使代码更加清晰","x":-191,"y":-24,"width":151,"height":80,"color":"2"}
+	],
+	"edges":[
+		{"id":"273660e69bb6b7f3","fromNode":"d811eb78b983ba4e","fromSide":"right","toNode":"45d7be1aadb6ca67","toSide":"left"},
+		{"id":"bffa894587186904","fromNode":"45d7be1aadb6ca67","fromSide":"right","toNode":"54fbd3471b5e5dd8","toSide":"left"},
+		{"id":"3f157c3b754f10f3","fromNode":"45d7be1aadb6ca67","fromSide":"right","toNode":"948d16b320404d9b","toSide":"left"},
+		{"id":"c113b35d6d07d58c","fromNode":"54fbd3471b5e5dd8","fromSide":"right","toNode":"a6e6dbbc44df71e7","toSide":"left"},
+		{"id":"38fab989edd2827a","fromNode":"948d16b320404d9b","fromSide":"right","toNode":"e2d74956b2e81016","toSide":"left"}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"37d0bce3fd4f2209","x":-144,"y":-116,"width":124,"height":60,"color":"1","type":"text","text":"配环境？"},
+		{"id":"054dc17ca2dbc8f9","x":80,"y":-240,"width":120,"height":60,"type":"text","text":"安装工具"},
+		{"id":"4e4ff246e5aded0e","x":80,"y":-116,"width":120,"height":60,"type":"text","text":"加载环境"},
+		{"id":"be4f948d8162f2d5","x":77,"y":0,"width":127,"height":60,"type":"text","text":"进入项目"},
+		{"id":"35712a3272dd9e2e","x":82,"y":120,"width":118,"height":60,"type":"text","text":"拉依赖/配置目标"}
+	],
+	"edges":[
+		{"id":"d758561fc054d5d6","fromNode":"054dc17ca2dbc8f9","fromSide":"bottom","toNode":"4e4ff246e5aded0e","toSide":"top"},
+		{"id":"2fc8fd13129233b7","fromNode":"4e4ff246e5aded0e","fromSide":"bottom","toNode":"be4f948d8162f2d5","toSide":"top"},
+		{"id":"f2d2afcf45ba109c","fromNode":"be4f948d8162f2d5","fromSide":"bottom","toNode":"35712a3272dd9e2e","toSide":"top"}
+	]
+}

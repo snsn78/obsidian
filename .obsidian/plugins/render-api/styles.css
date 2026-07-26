@@ -1,0 +1,64 @@
+/* Render API - settings styles */
+
+.render-api-status-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.render-api-status-badge.running {
+  background-color: var(--color-green);
+  color: var(--text-on-accent);
+}
+
+.render-api-status-badge.stopped {
+  background-color: var(--color-red);
+  color: var(--text-on-accent);
+}
+
+.render-api-render-container {
+  position: absolute;
+  left: -9999px;
+}
+
+.render-api-start-btn {
+  margin-left: 12px;
+}
+
+/* MCP code block with copy button */
+.render-api-code-wrapper {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.render-api-code-wrapper pre {
+  padding-top: 32px;
+}
+
+.render-api-copy-btn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 2px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  background: var(--background-primary);
+  color: var(--text-muted);
+}
+
+.render-api-copy-btn:hover {
+  background: var(--background-modifier-hover);
+  color: var(--text-normal);
+}
+
+/* MCP config section border */
+.render-api-mcp-config {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"93ec04dc10e393f1","type":"text","text":"ST（Structured Text）结构化语言","x":-580,"y":80,"width":311,"height":60,"color":"1"},
+		{"id":"40d9ae3b54376f47","type":"text","text":"PLC常见语言\n|LD 梯形图          |像电气图，适合电工看|\n|ST 结构化文本    |像写代码，适合复杂逻辑|\n|FBD 功能块图    |用模块连线|\n|SFC 顺序功能图 |适合步骤流程|\n|IL 指令表            |老式低级写法，现在较少用|","x":60,"y":-45,"width":509,"height":310},
+		{"id":"dff1e69f101f4040","x":-584,"y":-246,"width":250,"height":60,"type":"text","text":""},
+		{"id":"6639b80d33271c72","x":-553,"y":558,"width":250,"height":60,"type":"text","text":""},
+		{"id":"ffa4f8e286045a45","x":-1399,"y":125,"width":250,"height":60,"type":"text","text":""},
+		{"id":"3c68ad91899a4c94","x":892,"y":-287,"width":250,"height":60,"type":"text","text":""},
+		{"id":"9488fb4cdfc4ee14","x":756,"y":219,"width":250,"height":60,"type":"text","text":""},
+		{"id":"fe7500426f9ee701","x":-942,"y":860,"width":250,"height":60,"type":"text","text":""},
+		{"id":"f1c970774abc7e4e","x":-1390,"y":-270,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"a7038b6f1215eb61","fromNode":"93ec04dc10e393f1","fromSide":"right","toNode":"40d9ae3b54376f47","toSide":"left"},
+		{"id":"9b50d1e5fb07b99f","fromNode":"93ec04dc10e393f1","fromSide":"top","toNode":"dff1e69f101f4040","toSide":"bottom"},
+		{"id":"66170f24fce9d023","fromNode":"93ec04dc10e393f1","fromSide":"bottom","toNode":"6639b80d33271c72","toSide":"top"},
+		{"id":"5d479eb64ab70d79","fromNode":"93ec04dc10e393f1","fromSide":"left","toNode":"ffa4f8e286045a45","toSide":"right"},
+		{"id":"9d604967da24f343","fromNode":"40d9ae3b54376f47","fromSide":"right","toNode":"3c68ad91899a4c94","toSide":"left"},
+		{"id":"2e4344f154d80923","fromNode":"40d9ae3b54376f47","fromSide":"right","toNode":"9488fb4cdfc4ee14","toSide":"left"},
+		{"id":"0ff1794da116f98d","fromNode":"6639b80d33271c72","fromSide":"bottom","toNode":"fe7500426f9ee701","toSide":"top"},
+		{"id":"b473c0c31dee42dc","fromNode":"ffa4f8e286045a45","fromSide":"top","toNode":"f1c970774abc7e4e","toSide":"bottom"}
+	]
+}

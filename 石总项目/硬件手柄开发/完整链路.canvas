@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"0851fb5c77ad6686","type":"text","text":"手指触摸","x":-187,"y":-331,"width":147,"height":60},
+		{"id":"8c1c750fd2b013ec","type":"text","text":"GT911读取触摸坐标","x":-212,"y":-200,"width":198,"height":60},
+		{"id":"3d65fe76fe755b0f","type":"text","text":"LVGL indev收到触摸事件","x":-238,"y":-73,"width":250,"height":60},
+		{"id":"b7fd72a226094062","type":"text","text":"屏膜控件产生事件","x":-202,"y":60,"width":178,"height":60},
+		{"id":"0268989f8c345ad7","type":"text","text":"gamepad_action_mapper 判断这个控件绑定了什么动作","x":-238,"y":180,"width":250,"height":80},
+		{"id":"034c9c378013629b","type":"text","text":"gamepad input_state 更新统一状态","x":-238,"y":325,"width":250,"height":60},
+		{"id":"9bff5640df3247e3","type":"text","text":" gamepad_output 生成协议无关输出","x":-237,"y":450,"width":250,"height":60},
+		{"id":"cc11af011e84fb2a","type":"text","text":"gamepad_hid_report 打包 HID 报文","x":-235,"y":577,"width":250,"height":60},
+		{"id":"2799176784c0a39b","x":-230,"y":719,"width":250,"height":60,"type":"text","text":"gamepad_hid_device 通过TinyUSB 发送"},
+		{"id":"a8be2f5d6abbacde","x":-241,"y":864,"width":250,"height":60,"type":"text","text":"Windows 识别成手柄输入"},
+		{"id":"43e6d57927c32f18","x":-251,"y":1010,"width":250,"height":60,"type":"text","text":"游戏/Steam/joy.cpl 收到按钮和摇杆变化"},
+		{"id":"115c9f05408bfadb","type":"text","text":"完整链路","x":-500,"y":295,"width":122,"height":60,"color":"1"},
+		{"id":"8e8add499de1b939","x":247,"y":-200,"width":253,"height":90,"type":"text","text":"7/11下午遇到的问题是，只能触摸一个点一次，所以现在要改为多个触控点"}
+	],
+	"edges":[
+		{"id":"ea04fd975301eea6","fromNode":"0851fb5c77ad6686","fromSide":"bottom","toNode":"8c1c750fd2b013ec","toSide":"top"},
+		{"id":"0b5c04c2e5fefe53","fromNode":"8c1c750fd2b013ec","fromSide":"bottom","toNode":"3d65fe76fe755b0f","toSide":"top"},
+		{"id":"7bd1f35f4cfe88ae","fromNode":"3d65fe76fe755b0f","fromSide":"bottom","toNode":"b7fd72a226094062","toSide":"top"},
+		{"id":"580402e04cd56440","fromNode":"b7fd72a226094062","fromSide":"bottom","toNode":"0268989f8c345ad7","toSide":"top"},
+		{"id":"3d1fac935cef8084","fromNode":"0268989f8c345ad7","fromSide":"bottom","toNode":"034c9c378013629b","toSide":"top"},
+		{"id":"b279923bf07cb7f7","fromNode":"034c9c378013629b","fromSide":"bottom","toNode":"9bff5640df3247e3","toSide":"top"},
+		{"id":"66cfe4a06380dfcf","fromNode":"9bff5640df3247e3","fromSide":"bottom","toNode":"cc11af011e84fb2a","toSide":"top"},
+		{"id":"94471f91bd5aa694","fromNode":"cc11af011e84fb2a","fromSide":"bottom","toNode":"2799176784c0a39b","toSide":"top"},
+		{"id":"d1a719c8766f3649","fromNode":"2799176784c0a39b","fromSide":"bottom","toNode":"a8be2f5d6abbacde","toSide":"top"},
+		{"id":"4f22762d0d3e278b","fromNode":"a8be2f5d6abbacde","fromSide":"bottom","toNode":"43e6d57927c32f18","toSide":"top"},
+		{"id":"79dd901f1f905b2e","fromNode":"8c1c750fd2b013ec","fromSide":"right","toNode":"8e8add499de1b939","toSide":"left"}
+	]
+}

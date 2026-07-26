@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"e6c9e89801025ab6","x":-52,"y":-60,"width":112,"height":50,"color":"2","type":"text","text":"K230\n"},
+		{"id":"cd2dbf8b02159ef1","x":-52,"y":58,"width":137,"height":60,"color":"2","type":"text","text":"OpenMv\n"},
+		{"id":"f02aed68ab7b5aab","x":-320,"y":58,"width":125,"height":60,"color":"1","type":"text","text":"识别模块"},
+		{"id":"f95443ed5aa9a21b","x":-44,"y":176,"width":129,"height":60,"color":"2","type":"text","text":"泰山派"}
+	],
+	"edges":[
+		{"id":"94a6bda5dfc839e3","fromNode":"f02aed68ab7b5aab","fromSide":"right","toNode":"e6c9e89801025ab6","toSide":"left"},
+		{"id":"d8dc2104a1c2040b","fromNode":"f02aed68ab7b5aab","fromSide":"right","toNode":"cd2dbf8b02159ef1","toSide":"left"},
+		{"id":"3cd617536bfdc983","fromNode":"f02aed68ab7b5aab","fromSide":"right","toNode":"f95443ed5aa9a21b","toSide":"left"}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"55b54a60729d506c","type":"text","text":"Hermes","x":-194,"y":-24,"width":114,"height":60,"color":"1"},
+		{"id":"3a4a671d3a7cb64f","type":"file","file":"AI_Learning/Hermes/02-能力篇.md","x":-23,"y":-19,"width":72,"height":50,"color":"2"},
+		{"id":"5857037636cc3fc8","type":"file","file":"AI_Learning/Hermes/01-入门篇.md","x":-165,"y":-120,"width":57,"height":50,"color":"2"},
+		{"id":"c6ee660fe712db9b","type":"file","file":"AI_Learning/Hermes/05-实战篇.md","x":-141,"y":210,"width":400,"height":400,"color":"2"},
+		{"id":"aac129111e3856bd","type":"file","file":"AI_Learning/Hermes/03-进化篇.md","x":-699,"y":460,"width":50,"height":67,"color":"2"},
+		{"id":"fbdf9578c3297bb8","type":"file","file":"AI_Learning/Hermes/04-协作篇.md","x":-849,"y":-270,"width":400,"height":400,"color":"2"}
+	],
+	"edges":[
+		{"id":"6b1557481879729d","fromNode":"55b54a60729d506c","fromSide":"top","toNode":"5857037636cc3fc8","toSide":"bottom"},
+		{"id":"9cd4d03bb5acbddb","fromNode":"55b54a60729d506c","fromSide":"right","toNode":"3a4a671d3a7cb64f","toSide":"left"},
+		{"id":"5495fd4215721bc9","fromNode":"55b54a60729d506c","fromSide":"bottom","toNode":"aac129111e3856bd","toSide":"top"},
+		{"id":"c8f73157a57cc1f4","fromNode":"55b54a60729d506c","fromSide":"left","toNode":"fbdf9578c3297bb8","toSide":"right"},
+		{"id":"56e2d4e3af7145e6","fromNode":"55b54a60729d506c","fromSide":"bottom","toNode":"c6ee660fe712db9b","toSide":"top"}
+	]
+}

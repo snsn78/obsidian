@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"e140f2d49d83a92d","type":"text","text":"GPIO：General Pin Input Output","x":-422,"y":-88,"width":302,"height":60,"color":"1"},
+		{"id":"7459245a7241e20a","type":"text","text":"输出","x":68,"y":40,"width":95,"height":60,"color":"2"},
+		{"id":"1f66fb7e10f4f3ae","type":"text","text":"输入","x":-12,"y":600,"width":80,"height":60,"color":"2"},
+		{"id":"34c4baf96680a957","type":"file","file":"Pasted image 20260706012851.png","x":115,"y":-900,"width":616,"height":368,"color":"2"},
+		{"id":"d83ff256e3eb740b","type":"text","text":"工作方式：\n当我写入1时，P-MOS联通，N-MOS断开，相当于引脚处是高电压，为3.3V\n当我写入0时，P-MOS断开，N-MOS联通，相当于引脚处是低电压0V","x":1815,"y":-150,"width":324,"height":154},
+		{"id":"e170bdb3952a0ecc","type":"text","text":"二者都是通过输出数据寄存器，写入0/1来影响P-MOS和N-MOS的","x":1360,"y":63,"width":304,"height":74,"color":"3"},
+		{"id":"98bbb5a00b09d789","type":"text","text":"工作方式：\n1.在该模式下，P-MOS是断开着的\n2.当我写入“1”，N-MOS断开，相当于整个电路是断路\n\t 当我写入“0”，N-MOS闭合，但是在N-MOS处相当于是接的VSS的0V\n\n![[Pasted image 20260706015023.png]]","x":1818,"y":160,"width":537,"height":303},
+		{"id":"6f6d48b9097aac7b","type":"text","text":"开漏输出：OD——Open Drain","x":1360,"y":252,"width":286,"height":60},
+		{"id":"0556e63e24a96a2a","type":"text","text":"推挽输出：PP——Push Pull","x":1414,"y":-73,"width":250,"height":60},
+		{"id":"4901f2126a3c69d8","type":"text","text":"片上电路![[Pasted image 20260706013459.png]]","x":280,"y":-43,"width":775,"height":378},
+		{"id":"09186908dd9b87f9","type":"text","text":"寄存器\n控制引脚的输入输出，本质上就是在改变寄存器里面的数字，从而引起电压的改变，对于从内到外输出和从外到内的输入都是这个意思，我们可以使用\n![[Pasted image 20260706013228.png]]","x":1233,"y":-716,"width":279,"height":480},
+		{"id":"7e18ec207e4924d2","type":"text","text":"保护二极管，只能够保证3.3V的瞬时电压，不能够保证长久的，本质上就是形成电路的通路![[Pasted image 20260706013103.png]]","x":995,"y":-1120,"width":250,"height":359},
+		{"id":"9cb4a6034746fb28","type":"text","text":"输入下拉:IPD——Input Pull Down","x":1155,"y":768,"width":303,"height":60},
+		{"id":"bd38c9822d4c01be","type":"text","text":"输入上拉：IPU——Input Pull Up\n","x":1150,"y":620,"width":308,"height":55},
+		{"id":"aee28540911c9840","type":"text","text":"浮空输入：IN_FLOATING","x":1150,"y":912,"width":248,"height":60},
+		{"id":"09d1dedd29f1643e","type":"text","text":"片上电路\n![[Pasted image 20260706015924.png]]","x":200,"y":620,"width":778,"height":352},
+		{"id":"2b5e1564f22c3aac","type":"text","text":"加了一个复用“AF”，就是指这个是给外设所使用的","x":1288,"y":429,"width":251,"height":71},
+		{"id":"07d96e35a93114b9","type":"text","text":"模拟输入：AIN——就是给ADC用的","x":1155,"y":1080,"width":250,"height":50},
+		{"id":"06bfffd19743af1a","type":"text","text":"其他名词：\nAF:Alternative Function——复用\nAIN:Analog——模拟\nTTL肖特基触发器——就是规定，超过那个电压是高电压，低于哪个电压是低电压","x":1144,"y":1160,"width":326,"height":160}
+	],
+	"edges":[
+		{"id":"89437b8fe360886a","fromNode":"e140f2d49d83a92d","fromSide":"right","toNode":"7459245a7241e20a","toSide":"left","color":"3"},
+		{"id":"8df3961582129b4b","fromNode":"e140f2d49d83a92d","fromSide":"right","toNode":"1f66fb7e10f4f3ae","toSide":"left","color":"3"},
+		{"id":"e285cefd8eff2ea8","fromNode":"e140f2d49d83a92d","fromSide":"right","toNode":"34c4baf96680a957","toSide":"left","color":"3","label":"认识整体的结构图\n\n"},
+		{"id":"70be29d3a0987b81","fromNode":"34c4baf96680a957","fromSide":"right","toNode":"7e18ec207e4924d2","toSide":"left"},
+		{"id":"b16bdf92aa222423","fromNode":"34c4baf96680a957","fromSide":"right","toNode":"09186908dd9b87f9","toSide":"left"},
+		{"id":"157bfb9e2e26b9ac","fromNode":"7459245a7241e20a","fromSide":"right","toNode":"4901f2126a3c69d8","toSide":"left"},
+		{"id":"08271f85266166e0","fromNode":"4901f2126a3c69d8","fromSide":"right","toNode":"0556e63e24a96a2a","toSide":"left"},
+		{"id":"4baf7b245eaff8f6","fromNode":"0556e63e24a96a2a","fromSide":"right","toNode":"d83ff256e3eb740b","toSide":"left"},
+		{"id":"e8ba4c49feb1ef94","fromNode":"4901f2126a3c69d8","fromSide":"right","toNode":"6f6d48b9097aac7b","toSide":"left"},
+		{"id":"bf3d5209a7a3ea4d","fromNode":"6f6d48b9097aac7b","fromSide":"right","toNode":"98bbb5a00b09d789","toSide":"left"},
+		{"id":"e63c46323fefcf42","fromNode":"1f66fb7e10f4f3ae","fromSide":"right","toNode":"09d1dedd29f1643e","toSide":"left"},
+		{"id":"3def99349176f961","fromNode":"09d1dedd29f1643e","fromSide":"right","toNode":"bd38c9822d4c01be","toSide":"left"},
+		{"id":"e50eac35b2b1838e","fromNode":"09d1dedd29f1643e","fromSide":"right","toNode":"9cb4a6034746fb28","toSide":"left"},
+		{"id":"07b85fe1cd81e4fd","fromNode":"09d1dedd29f1643e","fromSide":"right","toNode":"aee28540911c9840","toSide":"left"},
+		{"id":"2564161f3593eb70","fromNode":"09d1dedd29f1643e","fromSide":"right","toNode":"06bfffd19743af1a","toSide":"left"},
+		{"id":"02592ddc29163f45","fromNode":"4901f2126a3c69d8","fromSide":"right","toNode":"2b5e1564f22c3aac","toSide":"left"},
+		{"id":"d38e9b612460174a","fromNode":"09d1dedd29f1643e","fromSide":"right","toNode":"07d96e35a93114b9","toSide":"left"}
+	]
+}

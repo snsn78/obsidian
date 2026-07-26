@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"28e5e681ecf0192d","x":-402,"y":-106,"width":82,"height":60,"color":"1","type":"text","text":"指针"},
+		{"id":"fcb20a55cf2a426b","x":-129,"y":-240,"width":289,"height":60,"type":"text","text":" 地址：就是数据存储在内存中，内存的具体位置就是地址"}
+	],
+	"edges":[
+		{"id":"3ed4251c61c34ac5","fromNode":"28e5e681ecf0192d","fromSide":"right","toNode":"fcb20a55cf2a426b","toSide":"left"}
+	]
+}

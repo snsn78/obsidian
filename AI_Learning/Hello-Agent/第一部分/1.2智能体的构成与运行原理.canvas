@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"305641a1f717fafe","type":"text","text":"1.2智能体的构成与运行原理","x":-400,"y":-147,"width":250,"height":60,"color":"1"},
+		{"id":"93c44d55735b14b7","type":"text","text":"任务环境定义","x":32,"y":-520,"width":200,"height":100},
+		{"id":"b40b7b4f319857d8","type":"text","text":"通常使用PEAS来进行刻画\n![[Pasted image 20260721153540.png]]","x":381,"y":-590,"width":999,"height":240},
+		{"id":"27b2da3f1164a43b","type":"text","text":"这里的环境就有如下的几个特点：\n1.作为agent他所调用的api接口，只能窥探到“部分”信息，这就要求他有自主探索和记忆的能力\n2.这个环境有变化的部分也有不变化的部分：不变化的部分有可能是同样的agent所造成的，比如说最后一张特价票被抢走\n最后所有的任务要：\n**序贯**：当前动作会影响未来\n**动态**：环境自身可能在智能体决策时发生变化","x":1467,"y":-590,"width":733,"height":240},
+		{"id":"e8c8e67e9290f3b5","type":"text","text":"智能体的感知与行动\n","x":32,"y":500,"width":200,"height":100},
+		{"id":"052167ffd1509251","type":"text","text":"智能体的运行机制\n","x":32,"y":-20,"width":200,"height":100},
+		{"id":"db6e5d5b59d7df5f","type":"text","text":"智能体循环\n![[Pasted image 20260721154556.png]]","x":381,"y":-150,"width":980,"height":360},
+		{"id":"0c004b4bcb2a5f20","x":693,"y":342,"width":400,"height":400,"type":"file","file":"AI_Learning/MCP.canvas"}
+	],
+	"edges":[
+		{"id":"9e1da933e695fcad","fromNode":"305641a1f717fafe","fromSide":"right","toNode":"93c44d55735b14b7","toSide":"left"},
+		{"id":"71e383fe964a7f45","fromNode":"305641a1f717fafe","fromSide":"right","toNode":"052167ffd1509251","toSide":"left"},
+		{"id":"594b780d97bab97f","fromNode":"305641a1f717fafe","fromSide":"right","toNode":"e8c8e67e9290f3b5","toSide":"left"},
+		{"id":"a39eb53565699cc8","fromNode":"93c44d55735b14b7","fromSide":"right","toNode":"b40b7b4f319857d8","toSide":"left"},
+		{"id":"a3a96fb3f8035e77","fromNode":"b40b7b4f319857d8","fromSide":"right","toNode":"27b2da3f1164a43b","toSide":"left"},
+		{"id":"740a2eb23013f477","fromNode":"052167ffd1509251","fromSide":"right","toNode":"db6e5d5b59d7df5f","toSide":"left"},
+		{"id":"b33b366eb91969d1","fromNode":"e8c8e67e9290f3b5","fromSide":"right","toNode":"0c004b4bcb2a5f20","toSide":"left","label":"整体的逻辑和这个MCP调用的很相似\n\n"}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"91affe12394c8283","type":"text","text":"代码的修改完善","x":-1790,"y":-661,"width":190,"height":60,"color":"1"},
+		{"id":"54eabcb95f46bb9e","type":"text","text":"右手柄灵敏度过高,路径如下\n```bat\nE:/ai_agent/codex/ESP32P4-XboxBridge/config/default.json\n```","x":-1506,"y":-679,"width":326,"height":159,"color":"2"},
+		{"id":"c5b4f1fdc375d1c9","type":"text","text":"就是把那个0.55改的高，就是快，改的低就是慢\n```bat\n\"mapping\": {\n  \"deadzone\": 0.08,\n  \"sensitivity\": 1.0,\n  \"right_stick_sensitivity\": 0.55,\n  \"invert_left_y\": true,\n  \"invert_right_y\": true,\n  \"circle_to_square\": false\n}\n```","x":-1000,"y":-742,"width":340,"height":342},
+		{"id":"646607f3991117e2","type":"text","text":"杀掉占用串口的程序:","x":370,"y":-806,"width":228,"height":60},
+		{"id":"ac914233b46e47de","type":"text","text":"\n```bat\nset PATH=%PATH:C:\\Users\\20953\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts;=%","x":678,"y":-806,"width":500,"height":129},
+		{"id":"c55a1263ffb11b7c","type":"text","text":"确认端口\n```bat\nmode COM20\n```","x":120,"y":-586,"width":530,"height":140},
+		{"id":"124a031ab18be920","type":"text","text":"出现类似的\n```bat\nStatus for device COM20:\nBaud: 115200\nParity: None\nData Bits: 8\nStop Bits: 1\n```","x":840,"y":-613,"width":338,"height":195},
+		{"id":"f304cbe38a6a81d2","type":"text","text":"如何进行烧录的呢？","x":-660,"y":0,"width":206,"height":60,"color":"1"},
+		{"id":"716f462e919cf784","x":-240,"y":-20,"width":395,"height":161,"type":"text","text":"进入工程目录\n```bat\ncd E:\\Vscode_codes\\lvgl\\WT9932P4-TINY\\lvgl_demo_v9\n```"},
+		{"id":"512c32d9ff2a4ce6","x":-253,"y":220,"width":422,"height":146,"type":"text","text":"指定当前可用的python环境\n```bat\n$env:IDF_PYTHON_ENV_PATH=\"C:\\Users\\20953\\.espressif\\python_env\\idf5.4_py3.12_env\"\n```"},
+		{"id":"4c805a4904178c4b","x":-318,"y":440,"width":553,"height":164,"type":"text","text":"激活esp-idf5.4\n```bat\ncmd /k \"set IDF_PYTHON_ENV_PATH=C:\\Users\\20953\\.espressif\\python_env\\idf5.4_py3.12_env && call E:\\Vscode_codes\\esp-idf-v5.4\\export.bat\"\n```"},
+		{"id":"875d46384f6f7027","x":-348,"y":973,"width":588,"height":127,"type":"text","text":"烧录\n```bat\nidf.py -B build_multitouch_verify -p COM20 flash\n```"},
+		{"id":"7e5b78ba1391b44c","x":-330,"y":720,"width":565,"height":169,"type":"text","text":"编译固件\n```bat\nidf.py -B build_multitouch_verify build\n```"},
+		{"id":"33e13bba688acce1","x":-325,"y":1165,"width":560,"height":135,"type":"text","text":"烧录后查看串口日志\n```bat\nidf.py -B build_multitouch_verify -p COM20 monitor\n```"}
+	],
+	"edges":[
+		{"id":"400dd1ecbd700624","fromNode":"646607f3991117e2","fromSide":"right","toNode":"ac914233b46e47de","toSide":"left"},
+		{"id":"6f8f64522efd1606","fromNode":"c55a1263ffb11b7c","fromSide":"right","toNode":"124a031ab18be920","toSide":"left"},
+		{"id":"ff14cdb89032176b","fromNode":"91affe12394c8283","fromSide":"right","toNode":"54eabcb95f46bb9e","toSide":"left"},
+		{"id":"6a081041757fb328","fromNode":"54eabcb95f46bb9e","fromSide":"right","toNode":"c5b4f1fdc375d1c9","toSide":"left"},
+		{"id":"d72e8341ab84d500","fromNode":"4c805a4904178c4b","fromSide":"bottom","toNode":"7e5b78ba1391b44c","toSide":"top"},
+		{"id":"a1f3823f24c4de17","fromNode":"7e5b78ba1391b44c","fromSide":"bottom","toNode":"875d46384f6f7027","toSide":"top"},
+		{"id":"9328522ae577bc1e","fromNode":"512c32d9ff2a4ce6","fromSide":"bottom","toNode":"4c805a4904178c4b","toSide":"top"},
+		{"id":"376cb7ea66bd1e87","fromNode":"716f462e919cf784","fromSide":"bottom","toNode":"512c32d9ff2a4ce6","toSide":"top"}
+	]
+}

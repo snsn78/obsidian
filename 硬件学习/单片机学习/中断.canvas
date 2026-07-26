@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"e20258f70d973114","type":"text","text":"EXTI（外部中断）——**EXT**ernal **I**nterrupt","x":470,"y":-192,"width":381,"height":60},
+		{"id":"5f90a6f0d1d77993","x":611,"y":-20,"width":363,"height":287,"type":"text","text":"一共有19根线，前15个都对应着相应的GPIO口\n\tPA0 PB0 PC0 PD0都对应这相应的线\n\n![[Pasted image 20260706035445.png]]"},
+		{"id":"cc7d52bc6497e9df","type":"text","text":"中断","x":-379,"y":-264,"width":90,"height":60,"color":"1"},
+		{"id":"25623f2805d81da4","type":"text","text":"产生中断的可能类型","x":-109,"y":-180,"width":250,"height":60,"color":"2"},
+		{"id":"d81099d852faeb95","type":"text","text":"可视化中断\n![[Pasted image 20260706022447.png]]","x":-49,"y":-480,"width":480,"height":160,"color":"2"},
+		{"id":"cbac2b2c2d9da355","type":"text","text":"指令出错 \n定时器结束\n串口接受数据\n**GPIO电平变化**","x":228,"y":-215,"width":163,"height":135},
+		{"id":"4de2f75bffda3c8b","x":184,"y":80,"width":247,"height":80,"type":"text","text":"GPIO的电压发生变化之后，通过，片上外设进入到，如右图所示的结构"},
+		{"id":"62cd4083d48d41b2","x":634,"y":547,"width":246,"height":213,"type":"text","text":"![[Pasted image 20260706035622.png]]"}
+	],
+	"edges":[
+		{"id":"00b34896c487b6dc","fromNode":"cc7d52bc6497e9df","fromSide":"right","toNode":"d81099d852faeb95","toSide":"left"},
+		{"id":"08992e968c277232","fromNode":"cc7d52bc6497e9df","fromSide":"right","toNode":"25623f2805d81da4","toSide":"left"},
+		{"id":"d6a14a0d909560bd","fromNode":"25623f2805d81da4","fromSide":"right","toNode":"cbac2b2c2d9da355","toSide":"left"},
+		{"id":"9218a61cb4acb5d5","fromNode":"cbac2b2c2d9da355","fromSide":"right","toNode":"e20258f70d973114","toSide":"left"},
+		{"id":"75e4ee628a188d87","fromNode":"cbac2b2c2d9da355","fromSide":"bottom","toNode":"4de2f75bffda3c8b","toSide":"top"},
+		{"id":"e5977d105270628c","fromNode":"4de2f75bffda3c8b","fromSide":"right","toNode":"5f90a6f0d1d77993","toSide":"left"}
+	]
+}

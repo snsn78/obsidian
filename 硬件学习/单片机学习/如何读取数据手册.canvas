@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"28cd8efe9bd7e21c","x":369,"y":80,"width":250,"height":60,"type":"text","text":"Pin Configuration 引脚分布"},
+		{"id":"68eefcafd432c5b0","x":369,"y":160,"width":250,"height":60,"type":"text","text":"内部寄存器或协议说明"},
+		{"id":"60618ea87049bfaf","x":369,"y":240,"width":311,"height":60,"type":"text","text":"Application Information 应用信息"},
+		{"id":"55aaf724e8448552","x":369,"y":320,"width":391,"height":60,"type":"text","text":"Package &Order Information 封装和订购信息"},
+		{"id":"54ea14699febdc6c","x":369,"y":3,"width":311,"height":60,"type":"text","text":"Specification 指标（包括图和表）"},
+		{"id":"391d911881132a10","x":369,"y":-69,"width":291,"height":60,"type":"text","text":"Absolute Max Ratings 损坏指标"},
+		{"id":"40f3d9ec3617eb91","x":369,"y":-159,"width":250,"height":60,"type":"text","text":"General Description 概览"},
+		{"id":"d29d39e554a26507","x":369,"y":-240,"width":250,"height":60,"type":"text","text":"Feature 特性"},
+		{"id":"2e1a61ae2f68ac77","x":-60,"y":63,"width":169,"height":60,"type":"text","text":"芯片手册的结构"},
+		{"id":"f2120e5c35b008a5","x":-460,"y":63,"width":188,"height":60,"color":"1","type":"text","text":"如何读取数据手册"},
+		{"id":"9c205c499b34b9d4","x":889,"y":-160,"width":251,"height":91,"type":"text","text":"对于新手来讲要仔细阅读，那个名词不会就要自己特别的去查"}
+	],
+	"edges":[
+		{"id":"db09b35fd6083b79","fromNode":"f2120e5c35b008a5","fromSide":"right","toNode":"2e1a61ae2f68ac77","toSide":"left"},
+		{"id":"bfbf875e3933a902","fromNode":"2e1a61ae2f68ac77","fromSide":"right","toNode":"d29d39e554a26507","toSide":"left"},
+		{"id":"1ab377aa1b77c5e1","fromNode":"2e1a61ae2f68ac77","fromSide":"right","toNode":"40f3d9ec3617eb91","toSide":"left"},
+		{"id":"43d061e57886bc56","fromNode":"2e1a61ae2f68ac77","fromSide":"right","toNode":"391d911881132a10","toSide":"left"},
+		{"id":"3eb304acc5e1f132","fromNode":"2e1a61ae2f68ac77","fromSide":"right","toNode":"54ea14699febdc6c","toSide":"left"},
+		{"id":"3c557ac6fb02e8b7","fromNode":"2e1a61ae2f68ac77","fromSide":"right","toNode":"28cd8efe9bd7e21c","toSide":"left"},
+		{"id":"48c26aa216174f22","fromNode":"2e1a61ae2f68ac77","fromSide":"right","toNode":"68eefcafd432c5b0","toSide":"left"},
+		{"id":"6b7f5a1f43cdb622","fromNode":"2e1a61ae2f68ac77","fromSide":"right","toNode":"60618ea87049bfaf","toSide":"left"},
+		{"id":"9c255f3340736286","fromNode":"2e1a61ae2f68ac77","fromSide":"right","toNode":"55aaf724e8448552","toSide":"left"},
+		{"id":"a7395018a03a158f","fromNode":"40f3d9ec3617eb91","fromSide":"right","toNode":"9c205c499b34b9d4","toSide":"left"}
+	]
+}

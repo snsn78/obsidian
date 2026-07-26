@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"c93082df-226f-4a","type":"text","text":"## 🤖 Claude Code CLI\n**端子**: terminal(...)\n\n**擅长**: 架构设计、复杂逻辑\n安全审查、重构\n\n**模式**:\n- `-p` 打印模式 (一次性)\n- tmux 交互模式\n\n**适用**:\n- 布局引擎核心\n- USB HID 协议实现\n- 配置系统设计","x":30,"y":120,"width":290,"height":400,"color":"4"},
+		{"id":"13e26b27-735d-46","type":"text","text":"## 🤖 OpenAI Codex CLI\n**端子**: terminal(... pty=true)\n\n**擅长**: 快速功能实现\n测试代码生成、批量 Bug 修复\n\n**模式**:\n- `exec` 一次性\n- `--full-auto` 全自动\n\n**适用**:\n- UI 组件实现\n- 单元/集成测试\n- 模块 CRUD","x":350,"y":260,"width":290,"height":260,"color":"2"},
+		{"id":"78d94ed3-86bb-4a","type":"text","text":"## 🔄 额外通道: delegate_task() Hermes 原生子Agent\n\n**无需额外 CLI!** Hermes 自己分身出子Agent，每个独立上下文+终端，天然并行\n适合: 小粒度任务(2-5分钟)、规范审查、质量门控\n优势: 无需安装任何第三方 CLI，零配置，纯 Hermes 内置能力","x":30,"y":540,"width":930,"height":140,"color":"3"},
+		{"id":"17db493a-28ec-4b","type":"text","text":"## 三种并行编排模式","x":30,"y":700,"width":350,"height":40,"color":"6"},
+		{"id":"18813375-0063-45","type":"text","text":"## 模式1: 🟢 并行独立\n\n无依赖模块同时开发\n\nAgent A: 布局编辑器\nAgent B: USB HID 模块\nAgent C: 配置系统\n\n→ background=true 同时启动","x":30,"y":760,"width":290,"height":240,"color":"4"},
+		{"id":"8f8f392b-d644-48","type":"text","text":"## 模式2: 🟠 串行流水线\n\n有依赖的顺序开发\n\n1. Agent A: 数据模型\n2. Agent B: 持久层 (用A产出)\n3. Agent C: 单元测试 (验证B)\n\n→ 产出一环扣一环","x":350,"y":760,"width":290,"height":240,"color":"2"},
+		{"id":"f4373263-9afc-40","type":"text","text":"## 模式3: 🟣 审查-修复\n\n质量保证循环\n\n1. Agent A: 实现功能\n2. Agent B: 审查 → 发现问题\n3. Agent A: 修复问题\n4. Agent B: 再审查 → PASS!","x":670,"y":760,"width":290,"height":240,"color":"6"},
+		{"id":"c168cf20-ca8b-48","type":"text","text":"## 手柄项目实例\n\n模式1 并行 → 布局编辑器 + USB HID + 配置系统 // 模式2 串行 → 数据模型→持久层→测试\n模式3 门控 → 每个模块: 实现→审查→修复→再审查→通过 // Hermes 汇总 → 集成测试 → 交付 APK","x":30,"y":1160,"width":930,"height":130,"color":"1"},
+		{"id":"2bc56b7a-a7b9-44","type":"text","text":"# Hermes 多 Agent 并行开发架构","x":270,"y":-300,"width":500,"height":50,"color":"6"},
+		{"id":"c9851e89-3650-44","type":"text","text":"## 👤 你 (微信 / CLI)","x":400,"y":-220,"width":240,"height":50,"color":"6"},
+		{"id":"c5a3f985-0857-4a","type":"text","text":"## 🧠 Hermes 中枢 (Conductor)\n\n任务分解 · 资源分配 · 状态监控 · 结果汇总\n质量门控 · 冲突仲裁 · 记忆持久化","x":270,"y":-80,"width":500,"height":120,"color":"5"},
+		{"id":"a54db1ff-2d9b-49","type":"text","text":"## 🤖 OpenCode CLI\n**端子**: terminal(... pty=true)\n\n**擅长**: 跨模型灵活切换\n代码审查、文档生成\n\n**模式**:\n- `run` 一次性\n- TUI 交互式\n\n**适用**:\n- Code Review\n- 多方案探索\n- README/文档","x":1120,"y":40,"width":290,"height":460,"color":"5"}
+	],
+	"edges":[
+		{"id":"ccd015ba-72d1-4a","fromNode":"c9851e89-3650-44","fromSide":"bottom","toNode":"c5a3f985-0857-4a","toSide":"top","label":"需求/指令"},
+		{"id":"35adde93-0f69-48","fromNode":"c5a3f985-0857-4a","fromSide":"bottom","toNode":"c93082df-226f-4a","toSide":"top","label":"调度"},
+		{"id":"f39536ff-ede7-4e","fromNode":"c5a3f985-0857-4a","fromSide":"bottom","toNode":"13e26b27-735d-46","toSide":"top","label":"调度"},
+		{"id":"7fb7504d-a36f-40","fromNode":"c5a3f985-0857-4a","fromSide":"bottom","toNode":"a54db1ff-2d9b-49","toSide":"top","label":"调度"},
+		{"id":"f084cbad-1211-40","fromNode":"c5a3f985-0857-4a","fromSide":"bottom","toNode":"78d94ed3-86bb-4a","toSide":"top","label":"分身"},
+		{"id":"d48041ed-b1ba-46","fromNode":"17db493a-28ec-4b","fromSide":"bottom","toNode":"18813375-0063-45","toSide":"top"},
+		{"id":"3937afaf-f313-49","fromNode":"17db493a-28ec-4b","fromSide":"bottom","toNode":"8f8f392b-d644-48","toSide":"top"},
+		{"id":"eec07467-4fc1-4e","fromNode":"17db493a-28ec-4b","fromSide":"bottom","toNode":"f4373263-9afc-40","toSide":"top"}
+	]
+}

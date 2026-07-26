@@ -1,0 +1,17 @@
+# Obsidian / OS runtime state
+.trash/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Obsidian local workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Plugin/runtime caches
+.obsidian/plugins/*/node_modules/
+.smart-env/
+
+# Obsidian Git temporary conflict note
+conflict-files-obsidian-git.md

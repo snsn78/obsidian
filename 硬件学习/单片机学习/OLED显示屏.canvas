@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"beb400bb112278ad","x":-281,"y":19,"width":141,"height":60,"color":"1","type":"text","text":"OLED显示屏"},
+		{"id":"6faa4e72a31b85a2","x":97,"y":-80,"width":283,"height":92,"type":"text","text":"128x64——>就是说横排有128个像素点，竖排有64个像素点"}
+	],
+	"edges":[
+		{"id":"56a519007d188f59","fromNode":"beb400bb112278ad","fromSide":"right","toNode":"6faa4e72a31b85a2","toSide":"left"}
+	]
+}
