@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"aeafbdbcb7dc8bb3","type":"text","text":"执行思路","x":-588,"y":-85,"width":250,"height":60,"color":"1"},
+		{"id":"1858891de795103b","type":"text","text":"手机端\n","x":-180,"y":-272,"width":250,"height":60,"color":"2"},
+		{"id":"77575d431070a631","type":"text","text":"电脑端","x":-204,"y":93,"width":250,"height":60,"color":"2"},
+		{"id":"c5adf2df277498e0","x":280,"y":-272,"width":250,"height":60,"type":"text","text":"安装我所发的apk就行"},
+		{"id":"95663e95f20c68ec","x":680,"y":-272,"width":250,"height":60,"type":"text","text":"需要手机打开开发者模式"},
+		{"id":"7109155987a16583","x":1140,"y":-263,"width":250,"height":60,"type":"text","text":"确认手机和电脑连上了"}
+	],
+	"edges":[
+		{"id":"39fc6461f78303e0","fromNode":"aeafbdbcb7dc8bb3","fromSide":"right","toNode":"1858891de795103b","toSide":"left","color":"2"},
+		{"id":"42a403d23094b5f3","fromNode":"aeafbdbcb7dc8bb3","fromSide":"right","toNode":"77575d431070a631","toSide":"left","color":"2"},
+		{"id":"3ee3247db66fa081","fromNode":"1858891de795103b","fromSide":"right","toNode":"c5adf2df277498e0","toSide":"left"},
+		{"id":"42f7433f954581d0","fromNode":"c5adf2df277498e0","fromSide":"right","toNode":"95663e95f20c68ec","toSide":"left"},
+		{"id":"6bb9aacfb4a85d10","fromNode":"95663e95f20c68ec","fromSide":"right","toNode":"7109155987a16583","toSide":"left"}
+	]
+}

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "执行思路",
+      "path": "石总项目/软件游戏手柄开发/执行思路.canvas"
+    },
+    {
+      "basename": "ADB未识别如何处理",
+      "path": "石总项目/软件游戏手柄开发/ADB未识别如何处理.md"
+    },
+    {
+      "basename": "检验映射是否正确的途径",
+      "path": "石总项目/软件游戏手柄开发/检验映射是否正确的途径.md"
+    },
+    {
       "basename": "自己验证的步骤",
       "path": "石总项目/软件游戏手柄开发/自己验证的步骤.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "1.1什么是智能体",
       "path": "AI_Learning/Hello-Agent/第一部分/1.1什么是智能体.canvas"
-    },
-    {
-      "basename": "检验映射是否正确的途径",
-      "path": "石总项目/软件游戏手柄开发/检验映射是否正确的途径.md"
     },
     {
       "basename": "Codex-Beta",
@@ -191,14 +199,6 @@
     {
       "basename": "25控制E题",
       "path": "硬件学习/电赛/25控制E题.canvas"
-    },
-    {
-      "basename": "如何读取数据手册",
-      "path": "硬件学习/单片机学习/如何读取数据手册.canvas"
-    },
-    {
-      "basename": "电机",
-      "path": "硬件学习/单片机学习/电机.canvas"
     }
   ],
   "omittedPaths": [],

@@ -7,7 +7,7 @@
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
   "autoCommitOnlyStaged": false,
-  "disablePush": true,
+  "disablePush": false,
   "pullBeforePush": true,
   "disablePopups": false,
   "showErrorNotices": true,
