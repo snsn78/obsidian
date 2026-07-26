@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "硬件学习/K230/未命名.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "硬件学习/K230/未命名.canvas"
+    },
+    {
+      "basename": "K230",
+      "path": "硬件学习/K230/K230.md"
+    },
+    {
       "basename": "自己验证的步骤",
       "path": "石总项目/软件游戏手柄开发/自己验证的步骤.md"
     },
@@ -165,10 +177,6 @@
       "path": "Pasted image 20260721090843.png"
     },
     {
-      "basename": "K230",
-      "path": "硬件学习/开发版/K230.md"
-    },
-    {
       "basename": "MSPM0G3507",
       "path": "硬件学习/开发版/MSPM0G3507.canvas"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "时钟",
       "path": "硬件学习/单片机学习/时钟.canvas"
-    },
-    {
-      "basename": "如何烧录",
-      "path": "硬件学习/LVGL/如何烧录.canvas"
-    },
-    {
-      "basename": "25控制E题",
-      "path": "硬件学习/电赛/25控制E题.canvas"
     }
   ],
   "omittedPaths": [],
