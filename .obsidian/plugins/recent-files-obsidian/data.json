@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Python-range",
+      "path": "算法与软件基础/Python/Python-range.md"
+    },
+    {
+      "basename": "执行思路",
+      "path": "石总项目/软件游戏手柄开发/执行思路.canvas"
+    },
+    {
+      "basename": "梯子",
+      "path": "算法与软件基础/计算机基础/梯子.canvas"
+    },
+    {
+      "basename": "位运算",
+      "path": "算法与软件基础/计算机基础/位运算.canvas"
+    },
+    {
       "basename": "k230-RGB灯的使用",
       "path": "硬件学习/K230/k230-RGB灯的使用.md"
     },
@@ -57,16 +73,8 @@
       "path": "石总项目/软件游戏手柄开发/检验映射是否正确的途径.md"
     },
     {
-      "basename": "执行思路",
-      "path": "石总项目/软件游戏手柄开发/执行思路.canvas"
-    },
-    {
-      "basename": "位运算",
-      "path": "编程相关/位运算.canvas"
-    },
-    {
       "basename": "结构体",
-      "path": "编程相关/结构体.canvas"
+      "path": "算法与软件基础/C语言/结构体.canvas"
     },
     {
       "basename": "1.3动手体验",
@@ -191,14 +199,6 @@
     {
       "basename": "数据库",
       "path": "AI_Learning/数据库.canvas"
-    },
-    {
-      "basename": "深度学习和神经网路",
-      "path": "AI_Learning/深度学习和神经网路.md"
-    },
-    {
-      "basename": "2026-07-20",
-      "path": "日记/2026-07-20.md"
     }
   ],
   "omittedPaths": [],
