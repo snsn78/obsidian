@@ -9,7 +9,6 @@
 		{"id":"integrate","type":"text","text":"整合层\nxbox_touch_gamepad_layout_demo.c\n负责整体布局、编辑模式、游玩模式、模块库","x":-180,"y":20,"width":300,"height":130,"color":"3"},
 		{"id":"pcbat","type":"text","text":".bat/build_and_run_xbox_touch_gamepad_layout_demo.bat\nPC 一键编译运行","x":560,"y":-200,"width":300,"height":90},
 		{"id":"root","type":"text","text":"项目根目录\nE:\\Vscode_codes\\lvgl","x":-1920,"y":-40,"width":260,"height":90,"color":"1"},
-		{"id":"src","type":"text","text":"源码层\nsrc/\n这里是你最常改的地方","x":-1340,"y":-40,"width":240,"height":100,"color":"2"},
 		{"id":"slider2d","type":"text","text":"codex_gpt5_slider_2d_demo.c\n二维视角滑块模块","x":-600,"y":-10,"width":220,"height":90},
 		{"id":"shoulder","type":"text","text":"shoulder_keys_demo.c\nL1/L2/R1/R2 模块","x":-600,"y":-120,"width":220,"height":80},
 		{"id":"package","type":"text","text":"交付打包层\nE:\\Vscode_codes\\gamepad\\test_1\\mcu_flash_package_20260705","x":370,"y":950,"width":340,"height":100,"color":"6"},
@@ -25,7 +24,8 @@
 		{"id":"managed","type":"text","text":"managed_components/\nLVGL、BSP、板级依赖","x":470,"y":650,"width":240,"height":90},
 		{"id":"common","type":"text","text":"common_components/\n硬件公共组件","x":750,"y":585,"width":220,"height":80},
 		{"id":"packagesrc","type":"text","text":"project_source/\n源码快照\n给没有本地工程的人","x":810,"y":1120,"width":240,"height":90},
-		{"id":"packagefw","type":"text","text":"firmware/\nbootloader.bin\npartition-table.bin\nlvgl_demo_v9.bin","x":880,"y":800,"width":260,"height":110}
+		{"id":"packagefw","type":"text","text":"firmware/\nbootloader.bin\npartition-table.bin\nlvgl_demo_v9.bin","x":880,"y":800,"width":260,"height":110},
+		{"id":"src","type":"text","text":"源码层\nsrc/\n这里是你最常改的地方","x":-1340,"y":20,"width":240,"height":100,"color":"2"}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"root","fromSide":"right","toNode":"src","toSide":"left"},
