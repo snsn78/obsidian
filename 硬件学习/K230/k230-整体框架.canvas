@@ -1,20 +1,10 @@
 {
 	"nodes":[
-		{"id":"7617271b75b311ee","x":-220,"y":-120,"width":122,"height":60,"color":"1","type":"text","text":"k230"},
-		{"id":"4110fba805f793e5","x":-20,"y":160,"width":125,"height":60,"color":"2","type":"text","text":"实例例程"},
-		{"id":"0e5af5e1ef3ede22","x":33,"y":-340,"width":145,"height":60,"color":"2","type":"text","text":"比较重要的"},
-		{"id":"4b733dc1d9925fac","x":580,"y":-840,"width":360,"height":120,"type":"file","file":"硬件学习/K230/k230-FPIOA引脚分配.md"},
-		{"id":"dd29c15d2dd5abd6","x":720,"y":-1060,"width":220,"height":80,"type":"file","file":"硬件学习/K230/k230-引脚图.md"},
-		{"id":"50bd4eda0e28ffaf","x":570,"y":-660,"width":300,"height":120,"type":"file","file":"硬件学习/K230/k230-串口通讯.md"},
-		{"id":"e9b5a8db9445b707","x":1104,"y":-512,"width":250,"height":60,"type":"text","text":""},
-		{"id":"a35ee9ebadbfff76","x":740,"y":-460,"width":400,"height":400,"type":"file","file":"硬件学习/K230/k230编译环境的配置.canvas"}
+		{"id":"e9b5a8db9445b707","type":"text","text":"","x":1104,"y":-512,"width":250,"height":60},
+		{"id":"69c311d6e8bf9c21","x":-808,"y":-1097,"width":400,"height":400,"type":"file","file":"硬件学习/K230/k230-串口通讯.md"},
+		{"id":"2ec690296400c29b","x":-659,"y":-462,"width":400,"height":400,"type":"file","file":"硬件学习/K230/k230-网站观看建议.md"},
+		{"id":"ad230b162a24846e","x":303,"y":-853,"width":400,"height":400,"type":"file","file":"硬件学习/K230/k230-离线运行例程.md"},
+		{"id":"2c18baf0b2501651","x":-104,"y":-149,"width":400,"height":400,"type":"file","file":"硬件学习/K230/k230-环境的配置.md"}
 	],
-	"edges":[
-		{"id":"0ef2f1a42784891d","fromNode":"7617271b75b311ee","fromSide":"right","toNode":"0e5af5e1ef3ede22","toSide":"left","color":"2"},
-		{"id":"4b0ba5876f6f08b7","fromNode":"7617271b75b311ee","fromSide":"right","toNode":"4110fba805f793e5","toSide":"left","color":"2"},
-		{"id":"3d3fd2caaf352647","fromNode":"0e5af5e1ef3ede22","fromSide":"right","toNode":"4b733dc1d9925fac","toSide":"left"},
-		{"id":"92aa1047b0d97249","fromNode":"0e5af5e1ef3ede22","fromSide":"right","toNode":"50bd4eda0e28ffaf","toSide":"left"},
-		{"id":"f375f1172384ec14","fromNode":"4b733dc1d9925fac","fromSide":"top","toNode":"dd29c15d2dd5abd6","toSide":"bottom"},
-		{"id":"7b2399f024925e2e","fromNode":"0e5af5e1ef3ede22","fromSide":"right","toNode":"a35ee9ebadbfff76","toSide":"left"}
-	]
+	"edges":[]
 }
