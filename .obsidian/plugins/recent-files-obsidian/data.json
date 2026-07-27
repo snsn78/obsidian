@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "k230-FPIOA引脚分配",
+      "path": "硬件学习/K230/k230-FPIOA引脚分配.md"
+    },
+    {
       "basename": "k230-Micropython 快速入门",
       "path": "硬件学习/K230/k230-Micropython 快速入门.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "MSPM0G3507",
       "path": "硬件学习/开发版/MSPM0G3507.canvas"
-    },
-    {
-      "basename": "Pasted image 20260718101335",
-      "path": "Pasted image 20260718101335.png"
     }
   ],
   "omittedPaths": [],
