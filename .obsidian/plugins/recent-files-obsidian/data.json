@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "k230-PWM",
+      "path": "硬件学习/K230/k230-PWM.md"
+    },
+    {
       "basename": "k230-I2C通讯",
       "path": "硬件学习/K230/k230-I2C通讯.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "PLC_PC_Agent_增强包总控",
       "path": "BECKOFF/AI部署的教程/PLC_PC_Agent_增强包总控.md"
-    },
-    {
-      "basename": "Pasted image 20260716095030",
-      "path": "Pasted image 20260716095030.png"
     }
   ],
   "omittedPaths": [],
