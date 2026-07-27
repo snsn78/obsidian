@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "k230-网站观看建议",
+      "path": "硬件学习/K230/k230-网站观看建议.md"
+    },
+    {
+      "basename": "k230-离线运行例程",
+      "path": "硬件学习/K230/k230-离线运行例程.md"
+    },
+    {
+      "basename": "k230-环境的配置",
+      "path": "硬件学习/K230/k230-环境的配置.md"
+    },
+    {
+      "basename": "k230-调试运行例程",
+      "path": "硬件学习/K230/k230-调试运行例程.md"
+    },
+    {
+      "basename": "k230-串口通讯",
+      "path": "硬件学习/K230/k230-串口通讯.md"
+    },
+    {
+      "basename": "K230-初识ByAI",
+      "path": "硬件学习/K230/K230-初识ByAI.md"
+    },
+    {
+      "basename": "如果无法终止程序应该怎么做",
+      "path": "硬件学习/K230/如果无法终止程序应该怎么做.md"
+    },
+    {
       "basename": "k230-PWM",
       "path": "硬件学习/K230/k230-PWM.md"
     },
     {
       "basename": "k230-I2C通讯",
       "path": "硬件学习/K230/k230-I2C通讯.md"
-    },
-    {
-      "basename": "k230-网站观看建议",
-      "path": "硬件学习/K230/k230-网站观看建议.md"
-    },
-    {
-      "basename": "k230-串口通讯",
-      "path": "硬件学习/K230/k230-串口通讯.md"
     },
     {
       "basename": "k230-引脚图",
@@ -35,10 +55,6 @@
     {
       "basename": "k230-FPIOA引脚分配",
       "path": "硬件学习/K230/k230-FPIOA引脚分配.md"
-    },
-    {
-      "basename": "K230-初识ByAI",
-      "path": "硬件学习/K230/K230-初识ByAI.md"
     },
     {
       "basename": "Pasted image 20260727145638",
@@ -75,22 +91,6 @@
     {
       "basename": "ADB未识别如何处理",
       "path": "石总项目/软件游戏手柄开发/ADB未识别如何处理.md"
-    },
-    {
-      "basename": "k230-离线运行例程",
-      "path": "硬件学习/K230/k230-离线运行例程.md"
-    },
-    {
-      "basename": "k230-环境的配置",
-      "path": "硬件学习/K230/k230-环境的配置.md"
-    },
-    {
-      "basename": "k230-调试运行例程",
-      "path": "硬件学习/K230/k230-调试运行例程.md"
-    },
-    {
-      "basename": "如果无法终止程序应该怎么做",
-      "path": "硬件学习/K230/如果无法终止程序应该怎么做.md"
     },
     {
       "basename": "Codex-Beta",
