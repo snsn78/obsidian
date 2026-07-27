@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "k230-按键",
+      "path": "硬件学习/K230/k230-按键.md"
+    },
+    {
+      "basename": "K230-初识ByAI",
+      "path": "硬件学习/K230/K230-初识ByAI.md"
+    },
+    {
+      "basename": "k230-网站观看建议",
+      "path": "硬件学习/K230/k230-网站观看建议.md"
+    },
+    {
       "basename": "单片机-蜂鸣器",
       "path": "硬件学习/单片机学习/单片机-蜂鸣器.md"
     },
@@ -59,10 +71,6 @@
     {
       "basename": "如果无法终止程序应该怎么做",
       "path": "硬件学习/K230/如果无法终止程序应该怎么做.md"
-    },
-    {
-      "basename": "K230",
-      "path": "硬件学习/K230/K230.md"
     },
     {
       "basename": "Codex-Beta",
@@ -191,14 +199,6 @@
     {
       "basename": "MCP",
       "path": "AI_Learning/MCP.canvas"
-    },
-    {
-      "basename": "LLM，Prompt,Tool,MCP,Agent",
-      "path": "AI_Learning/LLM，Prompt,Tool,MCP,Agent.canvas"
-    },
-    {
-      "basename": "Embedding",
-      "path": "AI_Learning/Embedding.canvas"
     }
   ],
   "omittedPaths": [],
