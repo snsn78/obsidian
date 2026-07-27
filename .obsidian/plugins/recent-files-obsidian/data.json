@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "k230-I2C通讯",
+      "path": "硬件学习/K230/k230-I2C通讯.md"
+    },
+    {
       "basename": "k230-网站观看建议",
       "path": "硬件学习/K230/k230-网站观看建议.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20260716095030",
       "path": "Pasted image 20260716095030.png"
-    },
-    {
-      "basename": "云台_1",
-      "path": "硬件学习/电赛/云台_1.canvas"
     }
   ],
   "omittedPaths": [],
