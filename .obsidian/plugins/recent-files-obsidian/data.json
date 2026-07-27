@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "单片机-蜂鸣器",
+      "path": "硬件学习/单片机学习/单片机-蜂鸣器.md"
+    },
+    {
       "basename": "Python-range",
       "path": "算法与软件基础/Python/Python-range.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Embedding",
       "path": "AI_Learning/Embedding.canvas"
-    },
-    {
-      "basename": "数据库",
-      "path": "AI_Learning/数据库.canvas"
     }
   ],
   "omittedPaths": [],
