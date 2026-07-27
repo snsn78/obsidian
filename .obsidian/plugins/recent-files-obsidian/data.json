@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "k230-RGB灯的使用",
+      "path": "硬件学习/K230/k230-RGB灯的使用.md"
+    },
+    {
+      "basename": "k230-引脚图",
+      "path": "硬件学习/K230/k230-引脚图.md"
+    },
+    {
       "basename": "k230-FPIOA引脚分配",
       "path": "硬件学习/K230/k230-FPIOA引脚分配.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2026-07-20",
       "path": "日记/2026-07-20.md"
-    },
-    {
-      "basename": "Pasted image 20260721090843",
-      "path": "Pasted image 20260721090843.png"
-    },
-    {
-      "basename": "MSPM0G3507",
-      "path": "硬件学习/开发版/MSPM0G3507.canvas"
     }
   ],
   "omittedPaths": [],
