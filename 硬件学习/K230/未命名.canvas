@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"7617271b75b311ee","x":-220,"y":-120,"width":122,"height":60,"color":"1","type":"text","text":"k230"},
+		{"id":"4110fba805f793e5","x":-20,"y":160,"width":125,"height":60,"color":"2","type":"text","text":"实例例程"},
+		{"id":"0e5af5e1ef3ede22","x":33,"y":-340,"width":145,"height":60,"color":"2","type":"text","text":"比较重要的"},
+		{"id":"4b733dc1d9925fac","x":580,"y":-840,"width":400,"height":400,"type":"file","file":"硬件学习/K230/k230-FPIOA引脚分配.md"},
+		{"id":"50bd4eda0e28ffaf","x":580,"y":-400,"width":400,"height":400,"type":"file","file":"硬件学习/K230/k230-串口通讯.md"}
+	],
+	"edges":[
+		{"id":"0ef2f1a42784891d","fromNode":"7617271b75b311ee","fromSide":"right","toNode":"0e5af5e1ef3ede22","toSide":"left","color":"2"},
+		{"id":"4b0ba5876f6f08b7","fromNode":"7617271b75b311ee","fromSide":"right","toNode":"4110fba805f793e5","toSide":"left","color":"2"},
+		{"id":"3d3fd2caaf352647","fromNode":"0e5af5e1ef3ede22","fromSide":"right","toNode":"4b733dc1d9925fac","toSide":"left"},
+		{"id":"92aa1047b0d97249","fromNode":"0e5af5e1ef3ede22","fromSide":"right","toNode":"50bd4eda0e28ffaf","toSide":"left"}
+	]
+}
