@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Codex-Beta",
-      "path": "AI_Learning/手动配置中转站/Codex-Beta.md"
+      "basename": "k230-调试运行例程",
+      "path": "硬件学习/K230/k230-调试运行例程.md"
+    },
+    {
+      "basename": "k230-环境的配置",
+      "path": "硬件学习/K230/k230-环境的配置.md"
+    },
+    {
+      "basename": "k230编译环境的配置",
+      "path": "硬件学习/K230/k230编译环境的配置.canvas"
     },
     {
       "basename": "如果无法终止程序应该怎么做",
       "path": "硬件学习/K230/如果无法终止程序应该怎么做.md"
     },
     {
-      "basename": "未命名",
-      "path": "硬件学习/K230/未命名.canvas"
-    },
-    {
       "basename": "K230",
       "path": "硬件学习/K230/K230.md"
+    },
+    {
+      "basename": "Codex-Beta",
+      "path": "AI_Learning/手动配置中转站/Codex-Beta.md"
     },
     {
       "basename": "自己验证的步骤",
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20260718093139",
       "path": "Pasted image 20260718093139.png"
-    },
-    {
-      "basename": "Hermes",
-      "path": "AI_Learning/Hermes/Hermes.canvas"
-    },
-    {
-      "basename": "时钟",
-      "path": "硬件学习/单片机学习/时钟.canvas"
     }
   ],
   "omittedPaths": [],
