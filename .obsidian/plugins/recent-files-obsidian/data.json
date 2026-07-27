@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "k230-Micropython 快速入门",
+      "path": "硬件学习/K230/k230-Micropython 快速入门.md"
+    },
+    {
+      "basename": "ADB未识别如何处理",
+      "path": "石总项目/软件游戏手柄开发/ADB未识别如何处理.md"
+    },
+    {
       "basename": "k230-离线运行例程",
       "path": "硬件学习/K230/k230-离线运行例程.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "执行思路",
       "path": "石总项目/软件游戏手柄开发/执行思路.canvas"
-    },
-    {
-      "basename": "ADB未识别如何处理",
-      "path": "石总项目/软件游戏手柄开发/ADB未识别如何处理.md"
     },
     {
       "basename": "位运算",
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20260718101335",
       "path": "Pasted image 20260718101335.png"
-    },
-    {
-      "basename": "Pasted image 20260718100358",
-      "path": "Pasted image 20260718100358.png"
     }
   ],
   "omittedPaths": [],
