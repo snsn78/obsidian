@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "k230-引脚图",
+      "path": "硬件学习/K230/k230-引脚图.md"
+    },
+    {
+      "basename": "各种引脚",
+      "path": "硬件学习/各种引脚.canvas"
+    },
+    {
       "basename": "MSPM0G3507-地猛星引脚图",
       "path": "硬件学习/MSPM0G3507/MSPM0G3507-地猛星引脚图.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "ULN2803A",
       "path": "硬件学习/各种功能模块/ULN2803A.md"
-    },
-    {
-      "basename": "各种引脚",
-      "path": "硬件学习/各种引脚.canvas"
     },
     {
       "basename": "ULN2003-引脚图",
@@ -51,10 +55,6 @@
     {
       "basename": "TB6600-引脚图",
       "path": "硬件学习/电机驱动/TB6600-引脚图.md"
-    },
-    {
-      "basename": "k230-引脚图",
-      "path": "硬件学习/K230/k230-引脚图.md"
     },
     {
       "basename": "查询电脑配置",
