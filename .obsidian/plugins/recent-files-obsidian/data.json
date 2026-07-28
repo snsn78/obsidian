@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "项目框架图",
-      "path": "石总项目/硬件手柄开发/项目框架图.canvas"
-    },
-    {
-      "basename": "k230-整体框架",
-      "path": "硬件学习/K230/k230-整体框架.canvas"
-    },
-    {
       "basename": "k230-RGB灯的使用",
       "path": "硬件学习/K230/k230-RGB灯的使用.md"
     },
     {
       "basename": "k230-I2C通讯",
       "path": "硬件学习/K230/k230-I2C通讯.md"
+    },
+    {
+      "basename": "k230-引脚图",
+      "path": "硬件学习/K230/k230-引脚图.md"
+    },
+    {
+      "basename": "k230-PWM",
+      "path": "硬件学习/K230/k230-PWM.md"
+    },
+    {
+      "basename": "k230-按键",
+      "path": "硬件学习/K230/k230-按键.md"
+    },
+    {
+      "basename": "项目框架图",
+      "path": "石总项目/硬件手柄开发/项目框架图.canvas"
+    },
+    {
+      "basename": "k230-整体框架",
+      "path": "硬件学习/K230/k230-整体框架.canvas"
     },
     {
       "basename": "k230-Micropython 快速入门",
@@ -27,14 +39,6 @@
     {
       "basename": "K230-初识ByAI",
       "path": "硬件学习/K230/K230-初识ByAI.md"
-    },
-    {
-      "basename": "k230-引脚图",
-      "path": "硬件学习/K230/k230-引脚图.md"
-    },
-    {
-      "basename": "k230-PWM",
-      "path": "硬件学习/K230/k230-PWM.md"
     },
     {
       "basename": "如果无法终止程序应该怎么做",
@@ -67,10 +71,6 @@
     {
       "basename": "Pasted image 20260727145638",
       "path": "Pasted image 20260727145638.png"
-    },
-    {
-      "basename": "k230-按键",
-      "path": "硬件学习/K230/k230-按键.md"
     },
     {
       "basename": "单片机-蜂鸣器",
