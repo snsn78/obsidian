@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "221a15d9fbd6d6e361e824ef4bf9c0f3",
+      "path": "221a15d9fbd6d6e361e824ef4bf9c0f3.jpg"
+    },
+    {
+      "basename": "42步进电机-接线图",
+      "path": "硬件学习/电机驱动/42步进电机-接线图.md"
+    },
+    {
       "basename": "各种引脚",
       "path": "硬件学习/各种引脚.canvas"
+    },
+    {
+      "basename": "ULN2003-引脚图",
+      "path": "硬件学习/各种功能模块/ULN2003-引脚图.md"
+    },
+    {
+      "basename": "ULN2803A",
+      "path": "硬件学习/各种功能模块/ULN2803A.md"
+    },
+    {
+      "basename": "TB6600-引脚图",
+      "path": "硬件学习/电机驱动/TB6600-引脚图.md"
     },
     {
       "basename": "k230-引脚图",
@@ -13,16 +33,8 @@
       "path": "硬件学习/开发版/MSPM0G3507-天猛星引脚.md"
     },
     {
-      "basename": "TB6600-引脚图",
-      "path": "硬件学习/电机驱动/TB6600-引脚图.md"
-    },
-    {
       "basename": "MSPM0G3507-地猛星引脚图",
       "path": "硬件学习/开发版/MSPM0G3507-地猛星引脚图.md"
-    },
-    {
-      "basename": "42步进电机-接线图",
-      "path": "硬件学习/电机驱动/42步进电机-接线图.md"
     },
     {
       "basename": "MSPM0G3507",
@@ -187,18 +199,6 @@
     {
       "basename": "倍福-打开TwinCAT的代码补全功能",
       "path": "BECKOFF/倍福-打开TwinCAT的代码补全功能.md"
-    },
-    {
-      "basename": "倍福-模拟空调程序",
-      "path": "BECKOFF/倍福-模拟空调程序.md"
-    },
-    {
-      "basename": "倍福-写字机",
-      "path": "BECKOFF/倍福-写字机.md"
-    },
-    {
-      "basename": "倍福-杂项",
-      "path": "BECKOFF/倍福-杂项.canvas"
     }
   ],
   "omittedPaths": [],
