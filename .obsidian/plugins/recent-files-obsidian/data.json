@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "MSPM0G3507-地猛星引脚图",
+      "path": "硬件学习/开发版/MSPM0G3507-地猛星引脚图.md"
+    },
+    {
+      "basename": "各种引脚",
+      "path": "硬件学习/各种引脚.canvas"
+    },
+    {
+      "basename": "ULN2003-引脚图",
+      "path": "硬件学习/各种功能模块/ULN2003-引脚图.md"
+    },
+    {
       "basename": "电机",
       "path": "硬件学习/单片机学习/电机.canvas"
     },
@@ -11,14 +23,6 @@
     {
       "basename": "单片机-蜂鸣器",
       "path": "硬件学习/单片机学习/单片机-蜂鸣器.md"
-    },
-    {
-      "basename": "各种引脚",
-      "path": "硬件学习/各种引脚.canvas"
-    },
-    {
-      "basename": "MSPM0G3507-地猛星引脚图",
-      "path": "硬件学习/开发版/MSPM0G3507-地猛星引脚图.md"
     },
     {
       "basename": "221a15d9fbd6d6e361e824ef4bf9c0f3",
@@ -39,10 +43,6 @@
     {
       "basename": "k230-引脚图",
       "path": "硬件学习/K230/k230-引脚图.md"
-    },
-    {
-      "basename": "ULN2003-引脚图",
-      "path": "硬件学习/各种功能模块/ULN2003-引脚图.md"
     },
     {
       "basename": "ULN2803A",
