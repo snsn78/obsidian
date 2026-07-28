@@ -18,7 +18,7 @@
       "query": "file:",
       "color": {
         "a": 1,
-        "rgb": 14069084
+        "rgb": 10854819
       }
     },
     {
@@ -32,7 +32,7 @@
       "query": "path:硬件学习/K230  ",
       "color": {
         "a": 1,
-        "rgb": 7291586
+        "rgb": 1761428
       }
     }
   ],
@@ -46,6 +46,6 @@
   "repelStrength": 20,
   "linkStrength": 0.503460207612457,
   "linkDistance": 338,
-  "scale": 0.0477876371096241,
+  "scale": 0.08317427835927543,
   "close": false
 }

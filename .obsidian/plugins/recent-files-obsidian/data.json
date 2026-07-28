@@ -1,16 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "MSPM0G3507-地猛星引脚图",
-      "path": "硬件学习/开发版/MSPM0G3507-地猛星引脚图.md"
+      "basename": "Advanced Tables 使用记录",
+      "path": "Obsidian扩展手册/Advanced Tables 使用记录.md"
     },
     {
-      "basename": "各种引脚",
-      "path": "硬件学习/各种引脚.canvas"
-    },
-    {
-      "basename": "k230-引脚图",
-      "path": "硬件学习/K230/k230-引脚图.md"
+      "basename": "00-总览：已安装扩展清单",
+      "path": "Obsidian扩展手册/00-总览：已安装扩展清单.md"
     },
     {
       "basename": "221a15d9fbd6d6e361e824ef4bf9c0f3",
@@ -21,16 +17,28 @@
       "path": "硬件学习/电机驱动/42步进电机-接线图.md"
     },
     {
+      "basename": "各种引脚",
+      "path": "硬件学习/各种引脚.canvas"
+    },
+    {
+      "basename": "TB6600-引脚图",
+      "path": "硬件学习/电机驱动/TB6600-引脚图.md"
+    },
+    {
+      "basename": "MSPM0G3507-地猛星引脚图",
+      "path": "硬件学习/开发版/MSPM0G3507-地猛星引脚图.md"
+    },
+    {
+      "basename": "k230-引脚图",
+      "path": "硬件学习/K230/k230-引脚图.md"
+    },
+    {
       "basename": "ULN2003-引脚图",
       "path": "硬件学习/各种功能模块/ULN2003-引脚图.md"
     },
     {
       "basename": "ULN2803A",
       "path": "硬件学习/各种功能模块/ULN2803A.md"
-    },
-    {
-      "basename": "TB6600-引脚图",
-      "path": "硬件学习/电机驱动/TB6600-引脚图.md"
     },
     {
       "basename": "MSPM0G3507-天猛星引脚",
@@ -191,14 +199,6 @@
     {
       "basename": "2026-7-18",
       "path": "BECKOFF/2026-7-18.canvas"
-    },
-    {
-      "basename": "倍福",
-      "path": "BECKOFF/倍福.canvas"
-    },
-    {
-      "basename": "倍福-打开TwinCAT的代码补全功能",
-      "path": "BECKOFF/倍福-打开TwinCAT的代码补全功能.md"
     }
   ],
   "omittedPaths": [],

@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"8f935de7966dedb9","type":"text","text":"各种引脚图","x":-286,"y":-83,"width":250,"height":60,"color":"1"},
 		{"id":"d64b99a76a8231ba","type":"file","file":"硬件学习/开发版/MSPM0G3507-地猛星引脚图.md","x":580,"y":-340,"width":380,"height":940},
-		{"id":"45b10e46267b7ff4","type":"file","file":"硬件学习/电机驱动/TB6600-引脚图.md","x":-334,"y":231,"width":400,"height":400},
+		{"id":"45b10e46267b7ff4","type":"file","file":"硬件学习/电机驱动/TB6600-引脚图.md","x":-334,"y":231,"width":400,"height":649},
 		{"id":"34f3c301a9108c1f","type":"file","file":"硬件学习/开发版/MSPM0G3507-天猛星引脚.md","x":140,"y":-678,"width":400,"height":400},
 		{"id":"695c15c0c6d57066","type":"file","file":"硬件学习/K230/k230-引脚图.md","x":-734,"y":-880,"width":400,"height":920},
 		{"id":"7860fb056e662f33","type":"file","file":"硬件学习/各种功能模块/ULN2003-引脚图.md","x":-1076,"y":273,"width":400,"height":400},
