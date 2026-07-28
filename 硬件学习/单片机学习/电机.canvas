@@ -9,9 +9,10 @@
 		{"id":"6c14d8e6f677fc83","type":"text","text":"按步转的，比较精细的调控","x":140,"y":60,"width":250,"height":60},
 		{"id":"1b36c9781f8c616a","type":"text","text":"就是给的电压越大，转得越快","x":-40,"y":-170,"width":276,"height":60},
 		{"id":"09c802e94035988b","type":"text","text":"42步进电机","x":69,"y":252,"width":143,"height":60},
-		{"id":"de01009215c4e0da","type":"text","text":"开环步进电机\n![[PixPin_2026-07-09_18-10-38.png]]","x":420,"y":220,"width":263,"height":200},
 		{"id":"f09dbe08237eaa9e","type":"text","text":"相当于有一个小的MCU进行控制比较方便","x":412,"y":1012,"width":250,"height":68},
-		{"id":"8f3ceb15a810120a","type":"text","text":"闭环步进电机\n![[PixPin_2026-07-09_18-09-35.png]]","x":412,"y":700,"width":280,"height":312}
+		{"id":"8f3ceb15a810120a","type":"text","text":"闭环步进电机\n![[PixPin_2026-07-09_18-09-35.png]]","x":412,"y":700,"width":280,"height":312},
+		{"id":"de01009215c4e0da","type":"text","text":"开环步进电机\n![[PixPin_2026-07-09_18-10-38.png]]","x":460,"y":180,"width":263,"height":200},
+		{"id":"af055acf3289de66","x":869,"y":75,"width":400,"height":400,"type":"file","file":"硬件学习/电机驱动/42步进电机-接线图.md"}
 	],
 	"edges":[
 		{"id":"8609cebf06751ff1","fromNode":"13390d54066f4de6","fromSide":"right","toNode":"7b3aac9d8b954f22","toSide":"left"},
@@ -24,6 +25,7 @@
 		{"id":"9638e0abd73d80fb","fromNode":"42ab090d3d39d45f","fromSide":"right","toNode":"09c802e94035988b","toSide":"left"},
 		{"id":"aae02dc5eee9897a","fromNode":"09c802e94035988b","fromSide":"right","toNode":"de01009215c4e0da","toSide":"left"},
 		{"id":"0eefe6b121c52d4b","fromNode":"09c802e94035988b","fromSide":"right","toNode":"8f3ceb15a810120a","toSide":"left"},
-		{"id":"481633a6320795d6","fromNode":"8f3ceb15a810120a","fromSide":"bottom","toNode":"f09dbe08237eaa9e","toSide":"top"}
+		{"id":"481633a6320795d6","fromNode":"8f3ceb15a810120a","fromSide":"bottom","toNode":"f09dbe08237eaa9e","toSide":"top"},
+		{"id":"0c608386a3fddc05","fromNode":"de01009215c4e0da","fromSide":"right","toNode":"af055acf3289de66","toSide":"left"}
 	]
 }
