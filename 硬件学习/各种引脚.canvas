@@ -1,12 +1,10 @@
 {
 	"nodes":[
-		{"id":"8f935de7966dedb9","x":-286,"y":-83,"width":250,"height":60,"color":"1","type":"text","text":"各种引脚图"},
-		{"id":"fac108631aeaaa2e","x":140,"y":-83,"width":250,"height":60,"color":"2","type":"text","text":"单片机"},
-		{"id":"d64b99a76a8231ba","x":580,"y":-340,"width":380,"height":113,"type":"file","file":"硬件学习/开发版/MSPM0G3507-地猛星引脚图.md"},
-		{"id":"20111b007397be6d","x":53,"y":148,"width":400,"height":400,"type":"file","file":"硬件学习/开发版/MSPM0G3507-地猛星引脚图.md"}
+		{"id":"8f935de7966dedb9","type":"text","text":"各种引脚图","x":-286,"y":-83,"width":250,"height":60,"color":"1"},
+		{"id":"d64b99a76a8231ba","type":"file","file":"硬件学习/开发版/MSPM0G3507-地猛星引脚图.md","x":580,"y":-340,"width":380,"height":940},
+		{"id":"45b10e46267b7ff4","x":-334,"y":231,"width":400,"height":400,"type":"file","file":"硬件学习/电机驱动/TB6600-引脚图.md"},
+		{"id":"34f3c301a9108c1f","x":140,"y":-678,"width":400,"height":400,"type":"file","file":"硬件学习/开发版/MSPM0G3507-天猛星引脚.md"},
+		{"id":"695c15c0c6d57066","x":-734,"y":-880,"width":400,"height":920,"type":"file","file":"硬件学习/K230/k230-引脚图.md"}
 	],
-	"edges":[
-		{"id":"d306938726f658b8","fromNode":"8f935de7966dedb9","fromSide":"right","toNode":"fac108631aeaaa2e","toSide":"left","color":"2"},
-		{"id":"c0ee9b18969aeafd","fromNode":"fac108631aeaaa2e","fromSide":"right","toNode":"d64b99a76a8231ba","toSide":"left"}
-	]
+	"edges":[]
 }

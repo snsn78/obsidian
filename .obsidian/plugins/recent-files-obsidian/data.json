@@ -1,28 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "42步进电机-接线图",
-      "path": "硬件学习/电机驱动/42步进电机-接线图.md"
+      "basename": "各种引脚",
+      "path": "硬件学习/各种引脚.canvas"
+    },
+    {
+      "basename": "k230-引脚图",
+      "path": "硬件学习/K230/k230-引脚图.md"
+    },
+    {
+      "basename": "MSPM0G3507-天猛星引脚",
+      "path": "硬件学习/开发版/MSPM0G3507-天猛星引脚.md"
     },
     {
       "basename": "TB6600-引脚图",
       "path": "硬件学习/电机驱动/TB6600-引脚图.md"
     },
     {
-      "basename": "各种引脚",
-      "path": "硬件学习/各种引脚.canvas"
-    },
-    {
       "basename": "MSPM0G3507-地猛星引脚图",
       "path": "硬件学习/开发版/MSPM0G3507-地猛星引脚图.md"
     },
     {
-      "basename": "MSPM0G3507",
-      "path": "硬件学习/开发版/MSPM0G3507.canvas"
+      "basename": "42步进电机-接线图",
+      "path": "硬件学习/电机驱动/42步进电机-接线图.md"
     },
     {
-      "basename": "k230-引脚图",
-      "path": "硬件学习/K230/k230-引脚图.md"
+      "basename": "MSPM0G3507",
+      "path": "硬件学习/开发版/MSPM0G3507.canvas"
     },
     {
       "basename": "查询电脑配置",
@@ -195,10 +199,6 @@
     {
       "basename": "倍福-杂项",
       "path": "BECKOFF/倍福-杂项.canvas"
-    },
-    {
-      "basename": "软件的安装",
-      "path": "BECKOFF/软件的安装.canvas"
     }
   ],
   "omittedPaths": [],
