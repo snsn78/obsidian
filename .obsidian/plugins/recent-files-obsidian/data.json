@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "42步进电机-接线图",
+      "path": "硬件学习/电机驱动/42步进电机-接线图.md"
+    },
+    {
+      "basename": "TB6600-引脚图",
+      "path": "硬件学习/电机驱动/TB6600-引脚图.md"
+    },
+    {
+      "basename": "各种引脚",
+      "path": "硬件学习/各种引脚.canvas"
+    },
+    {
+      "basename": "MSPM0G3507-地猛星引脚图",
+      "path": "硬件学习/开发版/MSPM0G3507-地猛星引脚图.md"
+    },
+    {
+      "basename": "MSPM0G3507",
+      "path": "硬件学习/开发版/MSPM0G3507.canvas"
+    },
+    {
       "basename": "k230-引脚图",
       "path": "硬件学习/K230/k230-引脚图.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "软件的安装",
       "path": "BECKOFF/软件的安装.canvas"
-    },
-    {
-      "basename": "写字机",
-      "path": "BECKOFF/写字机.canvas"
-    },
-    {
-      "basename": "ST语言",
-      "path": "BECKOFF/ST语言.canvas"
-    },
-    {
-      "basename": "Pasted image 20260718111318",
-      "path": "Pasted image 20260718111318.png"
-    },
-    {
-      "basename": "PixPin_2026-07-18_10-08-27",
-      "path": "PixPin_2026-07-18_10-08-27.png"
-    },
-    {
-      "basename": "Pasted image 20260722133522",
-      "path": "Pasted image 20260722133522.png"
     }
   ],
   "omittedPaths": [],

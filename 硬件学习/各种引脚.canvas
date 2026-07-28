@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"8f935de7966dedb9","x":-286,"y":-83,"width":250,"height":60,"color":"1","type":"text","text":"各种引脚图"},
+		{"id":"fac108631aeaaa2e","x":140,"y":-83,"width":250,"height":60,"color":"2","type":"text","text":"单片机"},
+		{"id":"d64b99a76a8231ba","x":580,"y":-340,"width":380,"height":113,"type":"file","file":"硬件学习/开发版/MSPM0G3507-地猛星引脚图.md"},
+		{"id":"20111b007397be6d","x":53,"y":148,"width":400,"height":400,"type":"file","file":"硬件学习/开发版/MSPM0G3507-地猛星引脚图.md"}
+	],
+	"edges":[
+		{"id":"d306938726f658b8","fromNode":"8f935de7966dedb9","fromSide":"right","toNode":"fac108631aeaaa2e","toSide":"left","color":"2"},
+		{"id":"c0ee9b18969aeafd","fromNode":"fac108631aeaaa2e","fromSide":"right","toNode":"d64b99a76a8231ba","toSide":"left"}
+	]
+}
