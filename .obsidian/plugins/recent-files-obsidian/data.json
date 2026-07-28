@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "k230-引脚图",
+      "path": "硬件学习/K230/k230-引脚图.md"
+    },
+    {
       "basename": "查询电脑配置",
       "path": "算法与软件基础/计算机基础/查询电脑配置.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "k230-I2C通讯",
       "path": "硬件学习/K230/k230-I2C通讯.md"
-    },
-    {
-      "basename": "k230-引脚图",
-      "path": "硬件学习/K230/k230-引脚图.md"
     },
     {
       "basename": "k230-PWM",
