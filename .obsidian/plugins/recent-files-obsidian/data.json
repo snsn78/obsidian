@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "查询电脑配置",
+      "path": "算法与软件基础/计算机基础/查询电脑配置.md"
+    },
+    {
       "basename": "k230-RGB灯的使用",
       "path": "硬件学习/K230/k230-RGB灯的使用.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20260722133522",
       "path": "Pasted image 20260722133522.png"
-    },
-    {
-      "basename": "04_tree-sitter-iec61131-3-st_使用教程",
-      "path": "BECKOFF/AI部署的教程/04_tree-sitter-iec61131-3-st_使用教程.md"
     }
   ],
   "omittedPaths": [],
