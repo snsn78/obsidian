@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ULN2803A",
+      "path": "硬件学习/各种功能模块/ULN2803A.md"
+    },
+    {
       "basename": "MSPM0G3507-地猛星引脚图",
       "path": "硬件学习/开发版/MSPM0G3507-地猛星引脚图.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "k230-引脚图",
       "path": "硬件学习/K230/k230-引脚图.md"
-    },
-    {
-      "basename": "ULN2803A",
-      "path": "硬件学习/各种功能模块/ULN2803A.md"
     },
     {
       "basename": "MSPM0G3507-天猛星引脚",
