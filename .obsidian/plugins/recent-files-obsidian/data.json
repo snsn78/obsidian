@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "k230-无线图传",
+      "path": "硬件学习/电赛/k230-问题解决/k230-无线图传.md"
+    },
+    {
       "basename": "电赛-问题汇总",
       "path": "硬件学习/电赛/电赛-问题汇总.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "倍福-写字机器人远程链接",
       "path": "BECKOFF/倍福-写字机器人远程链接.md"
-    },
-    {
-      "basename": "倍福-如何链接设备",
-      "path": "BECKOFF/倍福-如何链接设备.canvas"
     }
   ],
   "omittedPaths": [],
