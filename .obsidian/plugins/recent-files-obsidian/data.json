@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "电赛-问题汇总",
+      "path": "硬件学习/电赛/电赛-问题汇总.md"
+    },
+    {
       "basename": "MSPM0G3507-天猛星引脚",
       "path": "硬件学习/MSPM0G3507/MSPM0G3507-天猛星引脚.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2026-7-15",
       "path": "BECKOFF/2026-7-15.canvas"
-    },
-    {
-      "basename": "2026-7-16",
-      "path": "BECKOFF/2026-7-16.canvas"
     }
   ],
   "omittedPaths": [],
