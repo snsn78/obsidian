@@ -1,8 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "电赛-问题汇总",
-      "path": "硬件学习/电赛/电赛-问题汇总.md"
+      "basename": "47e02045de71ab7f86cb5909bd23ba7d",
+      "path": "47e02045de71ab7f86cb5909bd23ba7d.png"
     },
     {
       "basename": "MSPM0G3507-天猛星引脚",
@@ -11,6 +11,10 @@
     {
       "basename": "各种引脚",
       "path": "硬件学习/各种引脚.canvas"
+    },
+    {
+      "basename": "电赛-问题汇总",
+      "path": "硬件学习/电赛/电赛-问题汇总.md"
     },
     {
       "basename": "MSPM0G3507-地猛星引脚图",
@@ -195,10 +199,6 @@
     {
       "basename": "Hermes-官方版",
       "path": "AI_Learning/手动配置中转站/Hermes-官方版.md"
-    },
-    {
-      "basename": "2026-7-15",
-      "path": "BECKOFF/2026-7-15.canvas"
     }
   ],
   "omittedPaths": [],
