@@ -34,9 +34,16 @@
         "a": 1,
         "rgb": 1761428
       }
+    },
+    {
+      "query": "path：电赛",
+      "color": {
+        "a": 1,
+        "rgb": 16711901
+      }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 3.88944636678201,
@@ -46,6 +53,6 @@
   "repelStrength": 20,
   "linkStrength": 0.503460207612457,
   "linkDistance": 338,
-  "scale": 0.08317427835927543,
+  "scale": 0.03018289506732408,
   "close": false
 }
