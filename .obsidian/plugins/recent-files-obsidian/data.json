@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "电赛-小球开发梳理",
+      "path": "硬件学习/电赛/电赛-小球开发梳理.md"
+    },
+    {
+      "basename": "电赛-问题汇总",
+      "path": "硬件学习/电赛/电赛-问题汇总.md"
+    },
+    {
+      "basename": "CCS代码位置",
+      "path": "硬件学习/电赛/MAPM0G3507/CCS代码位置.md"
+    },
+    {
+      "basename": "25控制E题",
+      "path": "硬件学习/电赛/25控制E题.canvas"
+    },
+    {
+      "basename": "电赛-运动过程理解与分析",
+      "path": "硬件学习/电赛/电赛-运动过程理解与分析.md"
+    },
+    {
+      "basename": "电赛-2026H题题目",
+      "path": "硬件学习/电赛/电赛-2026H题题目.md"
+    },
+    {
       "basename": "Hermes-官方版",
       "path": "AI_Learning/手动配置中转站/Hermes-官方版.md"
     },
@@ -11,18 +35,6 @@
     {
       "basename": "路径",
       "path": "硬件学习/电赛/ai可读的题目/路径.md"
-    },
-    {
-      "basename": "电赛-小球开发梳理",
-      "path": "硬件学习/电赛/电赛-小球开发梳理.md"
-    },
-    {
-      "basename": "电赛-问题汇总",
-      "path": "硬件学习/电赛/电赛-问题汇总.md"
-    },
-    {
-      "basename": "电赛-运动过程理解与分析",
-      "path": "硬件学习/电赛/电赛-运动过程理解与分析.md"
     },
     {
       "basename": "Codex-Beta",
@@ -43,10 +55,6 @@
     {
       "basename": "MSPM0G3507-地猛星引脚图",
       "path": "硬件学习/MSPM0G3507/MSPM0G3507-地猛星引脚图.md"
-    },
-    {
-      "basename": "电赛-2026H题题目",
-      "path": "硬件学习/电赛/电赛-2026H题题目.md"
     },
     {
       "basename": "曲柄摇杆",
@@ -79,10 +87,6 @@
     {
       "basename": "2025电赛--学研百宝箱",
       "path": "硬件学习/电赛/2025电赛--学研百宝箱.canvas"
-    },
-    {
-      "basename": "25控制E题",
-      "path": "硬件学习/电赛/25控制E题.canvas"
     },
     {
       "basename": "MSPM0G3507",
@@ -195,10 +199,6 @@
     {
       "basename": "k230编译环境的配置",
       "path": "硬件学习/K230/k230编译环境的配置.canvas"
-    },
-    {
-      "basename": "Pasted image 20260727145638",
-      "path": "Pasted image 20260727145638.png"
     }
   ],
   "omittedPaths": [],
