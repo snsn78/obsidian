@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Hermes-官方版",
+      "path": "AI_Learning/手动配置中转站/Hermes-官方版.md"
+    },
+    {
+      "basename": "Codex-Beta",
+      "path": "AI_Learning/手动配置中转站/Codex-Beta.md"
+    },
+    {
       "basename": "42步进电机-接线图",
       "path": "硬件学习/电机驱动/42步进电机-接线图.md"
     },
@@ -67,10 +75,6 @@
     {
       "basename": "25控制E题",
       "path": "硬件学习/电赛/25控制E题.canvas"
-    },
-    {
-      "basename": "Codex-Beta",
-      "path": "AI_Learning/手动配置中转站/Codex-Beta.md"
     },
     {
       "basename": "MSPM0G3507",
@@ -195,10 +199,6 @@
     {
       "basename": "执行思路",
       "path": "石总项目/软件游戏手柄开发/执行思路.canvas"
-    },
-    {
-      "basename": "梯子",
-      "path": "算法与软件基础/计算机基础/梯子.canvas"
     }
   ],
   "omittedPaths": [],
