@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "路径",
+      "path": "硬件学习/电赛/ai可读的题目/路径.md"
+    },
+    {
+      "basename": "电赛-小球开发梳理",
+      "path": "硬件学习/电赛/电赛-小球开发梳理.md"
+    },
+    {
+      "basename": "电赛-问题汇总",
+      "path": "硬件学习/电赛/电赛-问题汇总.md"
+    },
+    {
+      "basename": "电赛-运动过程理解与分析",
+      "path": "硬件学习/电赛/电赛-运动过程理解与分析.md"
+    },
+    {
       "basename": "Hermes-官方版",
       "path": "AI_Learning/手动配置中转站/Hermes-官方版.md"
     },
@@ -21,14 +37,6 @@
       "path": "硬件学习/电机驱动/TB6600-引脚图.md"
     },
     {
-      "basename": "电赛-小球开发梳理",
-      "path": "硬件学习/电赛/电赛-小球开发梳理.md"
-    },
-    {
-      "basename": "电赛-问题汇总",
-      "path": "硬件学习/电赛/电赛-问题汇总.md"
-    },
-    {
       "basename": "MSPM0G3507-地猛星引脚图",
       "path": "硬件学习/MSPM0G3507/MSPM0G3507-地猛星引脚图.md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "k230-无线图传",
       "path": "硬件学习/电赛/k230-问题解决/k230-无线图传.md"
-    },
-    {
-      "basename": "电赛-运动过程理解与分析",
-      "path": "硬件学习/电赛/电赛-运动过程理解与分析.md"
     },
     {
       "basename": "算法建议",
@@ -195,10 +199,6 @@
     {
       "basename": "Python-range",
       "path": "算法与软件基础/Python/Python-range.md"
-    },
-    {
-      "basename": "执行思路",
-      "path": "石总项目/软件游戏手柄开发/执行思路.canvas"
     }
   ],
   "omittedPaths": [],
