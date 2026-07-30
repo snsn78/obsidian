@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "k230-ai提示词",
+      "path": "硬件学习/电赛/k230-问题解决/k230-ai提示词.md"
+    },
+    {
       "basename": "CCS代码位置",
       "path": "硬件学习/电赛/MAPM0G3507/CCS代码位置.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "k230-网站观看建议",
       "path": "硬件学习/K230/k230-网站观看建议.md"
-    },
-    {
-      "basename": "k230编译环境的配置",
-      "path": "硬件学习/K230/k230编译环境的配置.canvas"
     }
   ],
   "omittedPaths": [],
