@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "电赛-2026H题题目",
+      "path": "硬件学习/电赛/ai可读的题目/电赛-2026H题题目.md"
+    },
+    {
+      "basename": "官方整体要求",
+      "path": "硬件学习/电赛报告/官方整体要求.md"
+    },
+    {
+      "basename": "ULN2003-引脚图",
+      "path": "硬件学习/各种功能模块/ULN2003-引脚图.md"
+    },
+    {
       "basename": "ULN2803A",
       "path": "硬件学习/各种功能模块/ULN2803A.md"
     },
@@ -57,10 +69,6 @@
       "path": "硬件学习/电赛/MAPM0G3507/ai编写代码提示词.md"
     },
     {
-      "basename": "电赛-2026H题题目",
-      "path": "硬件学习/电赛/电赛-2026H题题目.md"
-    },
-    {
       "basename": "25控制E题",
       "path": "硬件学习/电赛/25控制E题.canvas"
     },
@@ -75,10 +83,6 @@
     {
       "basename": "k230-ai提示词",
       "path": "硬件学习/电赛/k230-问题解决/k230-ai提示词.md"
-    },
-    {
-      "basename": "官方整体要求",
-      "path": "硬件学习/电赛报告/官方整体要求.md"
     },
     {
       "basename": "感觉可以照抄的段落",
@@ -139,10 +143,6 @@
     {
       "basename": "47e02045de71ab7f86cb5909bd23ba7d",
       "path": "47e02045de71ab7f86cb5909bd23ba7d.png"
-    },
-    {
-      "basename": "ULN2003-引脚图",
-      "path": "硬件学习/各种功能模块/ULN2003-引脚图.md"
     },
     {
       "basename": "电机",
