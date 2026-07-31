@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "各种引脚",
+      "path": "硬件学习/各种引脚.canvas"
+    },
+    {
       "basename": "ULN2803A",
       "path": "硬件学习/各种功能模块/ULN2803A.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "MSPM0G3507",
       "path": "硬件学习/MSPM0G3507/MSPM0G3507.canvas"
-    },
-    {
-      "basename": "各种引脚",
-      "path": "硬件学习/各种引脚.canvas"
     },
     {
       "basename": "官方整体要求",
