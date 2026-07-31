@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "调参数",
-      "path": "硬件学习/电赛/调参数.md"
+      "basename": "ULN2803A",
+      "path": "硬件学习/各种功能模块/ULN2803A.md"
+    },
+    {
+      "basename": "k230-RGB灯的使用",
+      "path": "硬件学习/K230/k230-RGB灯的使用.md"
+    },
+    {
+      "basename": "k230编译环境的配置",
+      "path": "硬件学习/K230/k230编译环境的配置.canvas"
     },
     {
       "basename": "MSPM0G3507-地猛星引脚图",
       "path": "硬件学习/MSPM0G3507/MSPM0G3507-地猛星引脚图.md"
+    },
+    {
+      "basename": "各种引脚",
+      "path": "硬件学习/各种引脚.canvas"
+    },
+    {
+      "basename": "电赛-小球开发梳理",
+      "path": "硬件学习/电赛/电赛-小球开发梳理.md"
+    },
+    {
+      "basename": "电赛-问题汇总",
+      "path": "硬件学习/电赛/电赛-问题汇总.md"
+    },
+    {
+      "basename": "调参数",
+      "path": "硬件学习/电赛/调参数.md"
     },
     {
       "basename": "电赛-运动过程理解与分析",
@@ -29,10 +53,6 @@
       "path": "硬件学习/K230/k230-引脚图.md"
     },
     {
-      "basename": "各种引脚",
-      "path": "硬件学习/各种引脚.canvas"
-    },
-    {
       "basename": "ai编写代码提示词",
       "path": "硬件学习/电赛/MAPM0G3507/ai编写代码提示词.md"
     },
@@ -45,20 +65,12 @@
       "path": "硬件学习/电赛/25控制E题.canvas"
     },
     {
-      "basename": "电赛-小球开发梳理",
-      "path": "硬件学习/电赛/电赛-小球开发梳理.md"
-    },
-    {
       "basename": "k230-识别功能",
       "path": "硬件学习/电赛/k230-问题解决/k230-识别功能.md"
     },
     {
       "basename": "2025电赛--学研百宝箱",
       "path": "硬件学习/电赛/2025电赛--学研百宝箱.canvas"
-    },
-    {
-      "basename": "电赛-问题汇总",
-      "path": "硬件学习/电赛/电赛-问题汇总.md"
     },
     {
       "basename": "k230-ai提示词",
@@ -129,10 +141,6 @@
       "path": "47e02045de71ab7f86cb5909bd23ba7d.png"
     },
     {
-      "basename": "ULN2803A",
-      "path": "硬件学习/各种功能模块/ULN2803A.md"
-    },
-    {
       "basename": "ULN2003-引脚图",
       "path": "硬件学习/各种功能模块/ULN2003-引脚图.md"
     },
@@ -159,10 +167,6 @@
     {
       "basename": "查询电脑配置",
       "path": "算法与软件基础/计算机基础/查询电脑配置.md"
-    },
-    {
-      "basename": "k230-RGB灯的使用",
-      "path": "硬件学习/K230/k230-RGB灯的使用.md"
     },
     {
       "basename": "k230-I2C通讯",
