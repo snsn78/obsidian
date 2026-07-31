@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ai编写代码提示词",
+      "path": "硬件学习/电赛/MAPM0G3507/ai编写代码提示词.md"
+    },
+    {
       "basename": "电赛-2026H题题目",
       "path": "硬件学习/电赛/电赛-2026H题题目.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "K230-初识ByAI",
       "path": "硬件学习/K230/K230-初识ByAI.md"
-    },
-    {
-      "basename": "如果无法终止程序应该怎么做",
-      "path": "硬件学习/K230/如果无法终止程序应该怎么做.md"
     }
   ],
   "omittedPaths": [],
