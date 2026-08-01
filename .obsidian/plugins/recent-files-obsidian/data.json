@@ -5,22 +5,6 @@
       "path": "硬件学习/电赛/ai可读的题目/电赛-2026H题题目.md"
     },
     {
-      "basename": "k230-引脚图",
-      "path": "硬件学习/K230/k230-引脚图.md"
-    },
-    {
-      "basename": "各种引脚",
-      "path": "硬件学习/各种引脚.canvas"
-    },
-    {
-      "basename": "ai速读路径",
-      "path": "硬件学习/电赛/ai可读的题目/ai速读路径.md"
-    },
-    {
-      "basename": "Hermes-官方版",
-      "path": "AI_Learning/手动配置中转站/Hermes-官方版.md"
-    },
-    {
       "basename": "电赛-小球开发梳理",
       "path": "硬件学习/电赛/电赛-小球开发梳理.md"
     },
@@ -29,8 +13,36 @@
       "path": "硬件学习/电赛/电赛-问题汇总.md"
     },
     {
+      "basename": "官方整体要求",
+      "path": "硬件学习/电赛报告/官方整体要求.md"
+    },
+    {
       "basename": "MSPM0G3507-天猛星引脚",
       "path": "硬件学习/MSPM0G3507/MSPM0G3507-天猛星引脚.md"
+    },
+    {
+      "basename": "各种引脚",
+      "path": "硬件学习/各种引脚.canvas"
+    },
+    {
+      "basename": "ai编写代码提示词",
+      "path": "硬件学习/电赛/MAPM0G3507/ai编写代码提示词.md"
+    },
+    {
+      "basename": "ULN2003-引脚图",
+      "path": "硬件学习/各种功能模块/ULN2003-引脚图.md"
+    },
+    {
+      "basename": "k230-引脚图",
+      "path": "硬件学习/K230/k230-引脚图.md"
+    },
+    {
+      "basename": "ai速读路径",
+      "path": "硬件学习/电赛/ai可读的题目/ai速读路径.md"
+    },
+    {
+      "basename": "Hermes-官方版",
+      "path": "AI_Learning/手动配置中转站/Hermes-官方版.md"
     },
     {
       "basename": "MSPM0G3507-地猛星引脚图",
@@ -57,10 +69,6 @@
       "path": "硬件学习/电赛/25控制E题.canvas"
     },
     {
-      "basename": "ai编写代码提示词",
-      "path": "硬件学习/电赛/MAPM0G3507/ai编写代码提示词.md"
-    },
-    {
       "basename": "CCS代码位置",
       "path": "硬件学习/电赛/MAPM0G3507/CCS代码位置.md"
     },
@@ -75,14 +83,6 @@
     {
       "basename": "MSPM0G3507",
       "path": "硬件学习/MSPM0G3507/MSPM0G3507.canvas"
-    },
-    {
-      "basename": "官方整体要求",
-      "path": "硬件学习/电赛报告/官方整体要求.md"
-    },
-    {
-      "basename": "ULN2003-引脚图",
-      "path": "硬件学习/各种功能模块/ULN2003-引脚图.md"
     },
     {
       "basename": "k230-RGB灯的使用",
