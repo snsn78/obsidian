@@ -15,21 +15,21 @@ tags:
 
 | 项目 | 入口 | 状态 | 下一步 |
 |---|---|---|---|
-| 电赛 | [[电赛项目首页]] | active | 整理题目、方案、代码、调参记录 |
-| 石总项目 | [[石总项目首页]] | active | 拆分硬件手柄和软件手柄交付链路 |
-| Hermes 配置与自动化 | [[Hermes项目首页]] | active | 整理工具、插件、MCP、自动化流程 |
-| NVH 智能体项目 | [[NVH智能体项目首页]] | planning | 后续单独建项目页 |
+| 电赛 | [[01_项目/电赛/电赛项目首页]] | active | 整理题目、方案、代码、调参记录 |
+| 石总项目 | [[01_项目/石总项目/石总项目首页]] | active | 拆分硬件手柄和软件手柄交付链路 |
+| Hermes 配置与自动化 | [[01_项目/Hermes配置与自动化/Hermes项目首页]] | active | 整理工具、插件、MCP、自动化流程 |
+| NVH 智能体项目 | [[01_项目/NVH智能体项目/NVH智能体项目首页]] | planning | 后续单独建项目页 |
 
 ## 长期学习领域
 
 | 领域 | 建议入口 | 当前旧目录 |
 |---|---|---|
-| 硬件学习 | [[硬件学习MOC]] | `硬件学习` |
-| AI 与 Agent | [[AI与Agent-MOC]] | `AI_Learning` |
-| PLC 与 BECKOFF | [[PLC与BECKOFF-MOC]] | `BECKOFF` |
-| 算法与软件基础 | [[算法与软件基础MOC]] | `算法与软件基础` |
-| 数学 | [[数学MOC]] | `数学` |
-| Obsidian 工具 | [[Obsidian工具MOC]] | `Obsidian扩展手册` |
+| 硬件学习 | [[02_领域/硬件学习/硬件学习MOC]] | `硬件学习` |
+| AI 与 Agent | [[02_领域/AI与Agent/AI与Agent-MOC]] | `AI_Learning` |
+| PLC 与 BECKOFF | [[02_领域/PLC与BECKOFF/PLC与BECKOFF-MOC]] | `BECKOFF` |
+| 算法与软件基础 | [[02_领域/算法与软件基础/算法与软件基础MOC]] | `算法与软件基础` |
+| 数学 | [[02_领域/数学/数学MOC]] | `数学` |
+| Obsidian 工具 | [[02_领域/Obsidian工具/Obsidian工具MOC]] | `Obsidian扩展手册` |
 
 ## 常用 Canvas
 
@@ -52,8 +52,8 @@ tags:
 
 ## 常用模板
 
-- [[Templates/项目笔记模板]]
-- [[Templates/知识卡片模板]]
+- [[00_笔记整理中枢/Templates/项目笔记模板]]
+- [[00_笔记整理中枢/Templates/知识卡片模板]]
 
 ## 本周维护清单
 
