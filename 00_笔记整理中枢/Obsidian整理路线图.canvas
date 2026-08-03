@@ -1,0 +1,93 @@
+{
+  "nodes": [
+    {
+      "id": "n_strategy_0001",
+      "type": "file",
+      "file": "00_笔记整理中枢/00_Obsidian整理策略.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 180,
+      "color": "5"
+    },
+    {
+      "id": "n_home_moc_0001",
+      "type": "file",
+      "file": "00_笔记整理中枢/01_首页MOC.md",
+      "x": 430,
+      "y": 0,
+      "width": 360,
+      "height": 180,
+      "color": "4"
+    },
+    {
+      "id": "n_migration_001",
+      "type": "file",
+      "file": "00_笔记整理中枢/02_迁移清单.md",
+      "x": 860,
+      "y": 0,
+      "width": 360,
+      "height": 180,
+      "color": "3"
+    },
+    {
+      "id": "n_phase_1_0001",
+      "type": "text",
+      "text": "# 第 1 阶段\n\n建立入口，不移动旧文件。\n\n- 首页 MOC\n- 整理策略\n- 迁移清单\n- 模板\n- Canvas 路线图",
+      "x": 0,
+      "y": 280,
+      "width": 360,
+      "height": 220,
+      "color": "4"
+    },
+    {
+      "id": "n_phase_2_0001",
+      "type": "text",
+      "text": "# 第 2 阶段\n\n治理根目录附件。\n\n重点处理：\n- Pasted image*.png\n- PDF 数据手册\n- JPG/MP4 素材\n\n先扫描引用，再移动修链接。",
+      "x": 430,
+      "y": 280,
+      "width": 360,
+      "height": 240,
+      "color": "2"
+    },
+    {
+      "id": "n_phase_3_0001",
+      "type": "text",
+      "text": "# 第 3 阶段\n\n迁移活跃项目。\n\n优先级：\n1. 电赛\n2. 石总项目\n3. Hermes 配置与自动化\n4. NVH 智能体项目",
+      "x": 860,
+      "y": 280,
+      "width": 360,
+      "height": 230,
+      "color": "1"
+    },
+    {
+      "id": "n_phase_4_0001",
+      "type": "text",
+      "text": "# 第 4 阶段\n\n长期领域整理。\n\n- 硬件学习\n- AI 与 Agent\n- PLC 与 BECKOFF\n- 算法与软件基础\n- 数学",
+      "x": 215,
+      "y": 620,
+      "width": 360,
+      "height": 230,
+      "color": "6"
+    },
+    {
+      "id": "n_phase_5_0001",
+      "type": "text",
+      "text": "# 第 5 阶段\n\n沉淀知识卡片。\n\n每周只沉淀 1-3 条，不追求一次整理完。\n\n标准：以后能复用、能解释、能解决问题。",
+      "x": 645,
+      "y": 620,
+      "width": 360,
+      "height": 230,
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {"id": "e_0001", "fromNode": "n_strategy_0001", "fromSide": "right", "toNode": "n_home_moc_0001", "toSide": "left", "label": "落到入口"},
+    {"id": "e_0002", "fromNode": "n_home_moc_0001", "fromSide": "right", "toNode": "n_migration_001", "toSide": "left", "label": "按清单执行"},
+    {"id": "e_0003", "fromNode": "n_strategy_0001", "fromSide": "bottom", "toNode": "n_phase_1_0001", "toSide": "top"},
+    {"id": "e_0004", "fromNode": "n_phase_1_0001", "fromSide": "right", "toNode": "n_phase_2_0001", "toSide": "left"},
+    {"id": "e_0005", "fromNode": "n_phase_2_0001", "fromSide": "right", "toNode": "n_phase_3_0001", "toSide": "left"},
+    {"id": "e_0006", "fromNode": "n_phase_3_0001", "fromSide": "bottom", "toNode": "n_phase_4_0001", "toSide": "top"},
+    {"id": "e_0007", "fromNode": "n_phase_4_0001", "fromSide": "right", "toNode": "n_phase_5_0001", "toSide": "left"}
+  ]
+}
