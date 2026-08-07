@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "编译型VS解释型",
+      "path": "算法与软件基础/Python/Python-尚硅谷/编译型VS解释型.md"
+    },
+    {
+      "basename": "Python-range",
+      "path": "算法与软件基础/Python/Python-range.md"
+    },
+    {
       "basename": "电赛-2026H题题目",
       "path": "硬件学习/电赛/ai可读的题目/电赛-2026H题题目.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "k230-Micropython 快速入门",
       "path": "硬件学习/K230/k230-Micropython 快速入门.md"
-    },
-    {
-      "basename": "k230-FPIOA引脚分配",
-      "path": "硬件学习/K230/k230-FPIOA引脚分配.md"
-    },
-    {
-      "basename": "K230-初识ByAI",
-      "path": "硬件学习/K230/K230-初识ByAI.md"
     }
   ],
   "omittedPaths": [],
