@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "在终端里使用python",
+      "path": "算法与软件基础/Python/Python-尚硅谷/在终端里使用python.md"
+    },
+    {
       "basename": "编译型VS解释型",
       "path": "算法与软件基础/Python/Python-尚硅谷/编译型VS解释型.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "项目框架图",
       "path": "石总项目/硬件手柄开发/项目框架图.canvas"
-    },
-    {
-      "basename": "k230-整体框架",
-      "path": "硬件学习/K230/k230-整体框架.canvas"
     }
   ],
   "omittedPaths": [],
