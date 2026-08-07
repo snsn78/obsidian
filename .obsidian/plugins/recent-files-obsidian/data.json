@@ -5,6 +5,10 @@
       "path": "算法与软件基础/Python/Python-尚硅谷/编译型VS解释型.md"
     },
     {
+      "basename": "什么叫做系统架构？",
+      "path": "算法与软件基础/计算机基础/什么叫做系统架构？.md"
+    },
+    {
       "basename": "Python-range",
       "path": "算法与软件基础/Python/Python-range.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "k230-整体框架",
       "path": "硬件学习/K230/k230-整体框架.canvas"
-    },
-    {
-      "basename": "k230-Micropython 快速入门",
-      "path": "硬件学习/K230/k230-Micropython 快速入门.md"
     }
   ],
   "omittedPaths": [],
